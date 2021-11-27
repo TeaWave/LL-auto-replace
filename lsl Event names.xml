@@ -1,0 +1,87 @@
+<llsd>
+    <map>
+    <key>name</key>
+        <string>Lsl Event</string>
+    <key>replacements</key>
+        <map>
+		<key>attach</key>
+			<string>[http://wiki.secondlife.com/wiki/Attach Attach]</string>
+		<key>atrottarget</key>
+			<string>[http://wiki.secondlife.com/wiki/At_rot_target At_rot_target]</string>
+		<key>attarget</key>
+			<string>[http://wiki.secondlife.com/wiki/At_target At_target]</string>
+		<key>changed</key>
+			<string>[http://wiki.secondlife.com/wiki/Changed Changed]</string>
+		<key>collision</key>
+			<string>[http://wiki.secondlife.com/wiki/Collision Collision]</string>
+		<key>collisionend</key>
+			<string>[http://wiki.secondlife.com/wiki/Collision_end Collision_end]</string>
+		<key>collisionstart</key>
+			<string>[http://wiki.secondlife.com/wiki/Collision_start Collision_start]</string>
+		<key>control</key>
+			<string>[http://wiki.secondlife.com/wiki/Control Control]</string>
+		<key>dataserver</key>
+			<string>[http://wiki.secondlife.com/wiki/Dataserver Dataserver]</string>
+		<key>email</key>
+			<string>[http://wiki.secondlife.com/wiki/Email Email]</string>
+		<key>eventorder</key>
+			<string>[http://wiki.secondlife.com/wiki/Event_Order Event_Order]</string>
+		<key>experiencepermissions</key>
+			<string>[http://wiki.secondlife.com/wiki/Experience_permissions Experience_permissions]</string>
+		<key>experiencepermissionsdenied</key>
+			<string>[http://wiki.secondlife.com/wiki/Experience_permissions_denied Experience_permissions_denied]</string>
+		<key>httprequest</key>
+			<string>[http://wiki.secondlife.com/wiki/Http_request Http_request]</string>
+		<key>httpresponse</key>
+			<string>[http://wiki.secondlife.com/wiki/Http_response Http_response]</string>
+		<key>landcollision</key>
+			<string>[http://wiki.secondlife.com/wiki/Land_collision Land_collision]</string>
+		<key>landcollisionend</key>
+			<string>[http://wiki.secondlife.com/wiki/Land_collision_end Land_collision_end]</string>
+		<key>landcollisionstart</key>
+			<string>[http://wiki.secondlife.com/wiki/Land_collision_start Land_collision_start]</string>
+		<key>linkmessage</key>
+			<string>[http://wiki.secondlife.com/wiki/Link_message Link_message]</string>
+		<key>listen</key>
+			<string>[http://wiki.secondlife.com/wiki/Listen Listen]</string>
+		<key>money</key>
+			<string>[http://wiki.secondlife.com/wiki/Money Money]</string>
+		<key>movingend</key>
+			<string>[http://wiki.secondlife.com/wiki/Moving_end Moving_end]</string>
+		<key>movingstart</key>
+			<string>[http://wiki.secondlife.com/wiki/Moving_start Moving_start]</string>
+		<key>notatrottarget</key>
+			<string>[http://wiki.secondlife.com/wiki/Not_at_rot_target Not_at_rot_target]</string>
+		<key>notattarget</key>
+			<string>[http://wiki.secondlife.com/wiki/Not_at_target Not_at_target]</string>
+		<key>nosensor</key>
+			<string>[http://wiki.secondlife.com/wiki/No_sensor No_sensor]</string>
+		<key>objectrez</key>
+			<string>[http://wiki.secondlife.com/wiki/Object_rez Object_rez]</string>
+		<key>onrez</key>
+			<string>[http://wiki.secondlife.com/wiki/On_rez On_rez]</string>
+		<key>pathupdate</key>
+			<string>[http://wiki.secondlife.com/wiki/Path_update Path_update]</string>
+		<key>remotedata</key>
+			<string>[http://wiki.secondlife.com/wiki/Remote_data Remote_data]</string>
+		<key>runtimepermissions</key>
+			<string>[http://wiki.secondlife.com/wiki/Run_time_permissions Run_time_permissions]</string>
+		<key>sensor</key>
+			<string>[http://wiki.secondlife.com/wiki/Sensor Sensor]</string>
+		<key>stateentry</key>
+			<string>[http://wiki.secondlife.com/wiki/State_entry State_entry]</string>
+		<key>stateexit</key>
+			<string>[http://wiki.secondlife.com/wiki/State_exit State_exit]</string>
+		<key>timer</key>
+			<string>[http://wiki.secondlife.com/wiki/Timer Timer]</string>
+		<key>touch</key>
+			<string>[http://wiki.secondlife.com/wiki/Touch Touch]</string>
+		<key>touchend</key>
+			<string>[http://wiki.secondlife.com/wiki/Touch_end Touch_end]</string>
+		<key>touchstart</key>
+			<string>[http://wiki.secondlife.com/wiki/Touch_start Touch_start]</string>
+		<key>transactionresult</key>
+			<string>[http://wiki.secondlife.com/wiki/Transaction_result Transaction_result]</string>
+        </map>
+    </map>
+</llsd>

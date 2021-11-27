@@ -1,0 +1,1201 @@
+<llsd>
+    <map>
+    <key>name</key>
+        <string>Lsl constants</string>
+    <key>replacements</key>
+        <map>
+		<key>active</key>
+			<string>[http://wiki.secondlife.com/wiki/ACTIVE ACTIVE]</string>
+		<key>agent</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT AGENT]</string>
+		<key>agentalwaysrun</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_ALWAYS_RUN AGENT_ALWAYS_RUN]</string>
+		<key>agentattachments</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_ATTACHMENTS AGENT_ATTACHMENTS]</string>
+		<key>agentautopilot</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_AUTOPILOT AGENT_AUTOPILOT]</string>
+		<key>agentaway</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_AWAY AGENT_AWAY]</string>
+		<key>agentbusy</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_BUSY AGENT_BUSY]</string>
+		<key>agentbylegacyname</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_BY_LEGACY_NAME AGENT_BY_LEGACY_NAME]</string>
+		<key>agentbyusername</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_BY_USERNAME AGENT_BY_USERNAME]</string>
+		<key>agentcrouching</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_CROUCHING AGENT_CROUCHING]</string>
+		<key>agentflying</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_FLYING AGENT_FLYING]</string>
+		<key>agentinair</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_IN_AIR AGENT_IN_AIR]</string>
+		<key>agentlistparcel</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_LIST_PARCEL AGENT_LIST_PARCEL]</string>
+		<key>agentlistparcelowner</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_LIST_PARCEL_OWNER AGENT_LIST_PARCEL_OWNER]</string>
+		<key>agentlistregion</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_LIST_REGION AGENT_LIST_REGION]</string>
+		<key>agentmouselook</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_MOUSELOOK AGENT_MOUSELOOK]</string>
+		<key>agentonobject</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_ON_OBJECT AGENT_ON_OBJECT]</string>
+		<key>agentscripted</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_SCRIPTED AGENT_SCRIPTED]</string>
+		<key>agentsitting</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_SITTING AGENT_SITTING]</string>
+		<key>agenttyping</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_TYPING AGENT_TYPING]</string>
+		<key>agentwalking</key>
+			<string>[http://wiki.secondlife.com/wiki/AGENT_WALKING AGENT_WALKING]</string>
+		<key>allsides</key>
+			<string>[http://wiki.secondlife.com/wiki/ALL_SIDES ALL_SIDES]</string>
+		<key>animon</key>
+			<string>[http://wiki.secondlife.com/wiki/ANIM_ON ANIM_ON]</string>
+		<key>attachavatarcenter</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_AVATAR_CENTER ATTACH_AVATAR_CENTER]</string>
+		<key>attachback</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_BACK ATTACH_BACK]</string>
+		<key>attachbelly</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_BELLY ATTACH_BELLY]</string>
+		<key>attachchest</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_CHEST ATTACH_CHEST]</string>
+		<key>attachchin</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_CHIN ATTACH_CHIN]</string>
+		<key>attachfacejaw</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_FACE_JAW ATTACH_FACE_JAW]</string>
+		<key>attachfacelear</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_FACE_LEAR ATTACH_FACE_LEAR]</string>
+		<key>attachfaceleye</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_FACE_LEYE ATTACH_FACE_LEYE]</string>
+		<key>attachfacerear</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_FACE_REAR ATTACH_FACE_REAR]</string>
+		<key>attachfacereye</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_FACE_REYE ATTACH_FACE_REYE]</string>
+		<key>attachfacetongue</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_FACE_TONGUE ATTACH_FACE_TONGUE]</string>
+		<key>attachgroin</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_GROIN ATTACH_GROIN]</string>
+		<key>attachhead</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_HEAD ATTACH_HEAD]</string>
+		<key>attachhindlfoot</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_HIND_LFOOT ATTACH_HIND_LFOOT]</string>
+		<key>attachhindrfoot</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_HIND_RFOOT ATTACH_HIND_RFOOT]</string>
+		<key>attachhudbottom</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_HUD_BOTTOM ATTACH_HUD_BOTTOM]</string>
+		<key>attachhudbottomleft</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_HUD_BOTTOM_LEFT ATTACH_HUD_BOTTOM_LEFT]</string>
+		<key>attachhudbottomright</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_HUD_BOTTOM_RIGHT ATTACH_HUD_BOTTOM_RIGHT]</string>
+		<key>attachhudcenter1</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_HUD_CENTER_1 ATTACH_HUD_CENTER_1]</string>
+		<key>attachhudcenter2</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_HUD_CENTER_2 ATTACH_HUD_CENTER_2]</string>
+		<key>attachhudtopcenter</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_HUD_TOP_CENTER ATTACH_HUD_TOP_CENTER]</string>
+		<key>attachhudtopleft</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_HUD_TOP_LEFT ATTACH_HUD_TOP_LEFT]</string>
+		<key>attachhudtopright</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_HUD_TOP_RIGHT ATTACH_HUD_TOP_RIGHT]</string>
+		<key>attachlear</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LEAR ATTACH_LEAR]</string>
+		<key>attachleftpec</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LEFT_PEC ATTACH_LEFT_PEC]</string>
+		<key>attachleye</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LEYE ATTACH_LEYE]</string>
+		<key>attachlfoot</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LFOOT ATTACH_LFOOT]</string>
+		<key>attachlhand</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LHAND ATTACH_LHAND]</string>
+		<key>attachlhandring1</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LHAND_RING1 ATTACH_LHAND_RING1]</string>
+		<key>attachlhip</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LHIP ATTACH_LHIP]</string>
+		<key>attachllarm</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LLARM ATTACH_LLARM]</string>
+		<key>attachllleg</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LLLEG ATTACH_LLLEG]</string>
+		<key>attachlshoulder</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LSHOULDER ATTACH_LSHOULDER]</string>
+		<key>attachluarm</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LUARM ATTACH_LUARM]</string>
+		<key>attachluleg</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LULEG ATTACH_LULEG]</string>
+		<key>attachlwing</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_LWING ATTACH_LWING]</string>
+		<key>attachmouth</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_MOUTH ATTACH_MOUTH]</string>
+		<key>attachneck</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_NECK ATTACH_NECK]</string>
+		<key>attachnose</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_NOSE ATTACH_NOSE]</string>
+		<key>attachpelvis</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_PELVIS ATTACH_PELVIS]</string>
+		<key>attachrear</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_REAR ATTACH_REAR]</string>
+		<key>attachreye</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_REYE ATTACH_REYE]</string>
+		<key>attachrfoot</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_RFOOT ATTACH_RFOOT]</string>
+		<key>attachrhand</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_RHAND ATTACH_RHAND]</string>
+		<key>attachrhandring1</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_RHAND_RING1 ATTACH_RHAND_RING1]</string>
+		<key>attachrhip</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_RHIP ATTACH_RHIP]</string>
+		<key>attachrightpec</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_RIGHT_PEC ATTACH_RIGHT_PEC]</string>
+		<key>attachrlarm</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_RLARM ATTACH_RLARM]</string>
+		<key>attachrlleg</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_RLLEG ATTACH_RLLEG]</string>
+		<key>attachrshoulder</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_RSHOULDER ATTACH_RSHOULDER]</string>
+		<key>attachruarm</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_RUARM ATTACH_RUARM]</string>
+		<key>attachruleg</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_RULEG ATTACH_RULEG]</string>
+		<key>attachrwing</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_RWING ATTACH_RWING]</string>
+		<key>attachtailbase</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_TAIL_BASE ATTACH_TAIL_BASE]</string>
+		<key>attachtailtip</key>
+			<string>[http://wiki.secondlife.com/wiki/ATTACH_TAIL_TIP ATTACH_TAIL_TIP]</string>
+		<key>cameraactive</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_ACTIVE CAMERA_ACTIVE]</string>
+		<key>camerabehindnessangle</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_BEHINDNESS_ANGLE CAMERA_BEHINDNESS_ANGLE]</string>
+		<key>camerabehindnesslag</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_BEHINDNESS_LAG CAMERA_BEHINDNESS_LAG]</string>
+		<key>cameradistance</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_DISTANCE CAMERA_DISTANCE]</string>
+		<key>camerafocus</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_FOCUS CAMERA_FOCUS]</string>
+		<key>camerafocuslag</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_FOCUS_LAG CAMERA_FOCUS_LAG]</string>
+		<key>camerafocuslocked</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_FOCUS_LOCKED CAMERA_FOCUS_LOCKED]</string>
+		<key>camerafocusoffset</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_FOCUS_OFFSET CAMERA_FOCUS_OFFSET]</string>
+		<key>camerafocusthreshold</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_FOCUS_THRESHOLD CAMERA_FOCUS_THRESHOLD]</string>
+		<key>camerapitch</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_PITCH CAMERA_PITCH]</string>
+		<key>cameraposition</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_POSITION CAMERA_POSITION]</string>
+		<key>camerapositionlag</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_POSITION_LAG CAMERA_POSITION_LAG]</string>
+		<key>camerapositionlocked</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_POSITION_LOCKED CAMERA_POSITION_LOCKED]</string>
+		<key>camerapositionthreshold</key>
+			<string>[http://wiki.secondlife.com/wiki/CAMERA_POSITION_THRESHOLD CAMERA_POSITION_THRESHOLD]</string>
+		<key>changedalloweddrop</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_ALLOWED_DROP CHANGED_ALLOWED_DROP]</string>
+		<key>changedcolor</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_COLOR CHANGED_COLOR]</string>
+		<key>changedinventory</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_INVENTORY CHANGED_INVENTORY]</string>
+		<key>changedlink</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_LINK CHANGED_LINK]</string>
+		<key>changedmedia</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_MEDIA CHANGED_MEDIA]</string>
+		<key>changedowner</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_OWNER CHANGED_OWNER]</string>
+		<key>changedregion</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_REGION CHANGED_REGION]</string>
+		<key>changedregionstart</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_REGION_START CHANGED_REGION_START]</string>
+		<key>changedscale</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_SCALE CHANGED_SCALE]</string>
+		<key>changedshape</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_SHAPE CHANGED_SHAPE]</string>
+		<key>changedteleport</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_TELEPORT CHANGED_TELEPORT]</string>
+		<key>changedtexture</key>
+			<string>[http://wiki.secondlife.com/wiki/CHANGED_TEXTURE CHANGED_TEXTURE]</string>
+		<key>characteraccountforskippedframes</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_ACCOUNT_FOR_SKIPPED_FRAMES CHARACTER_ACCOUNT_FOR_SKIPPED_FRAMES]</string>
+		<key>characteravoidancemode</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_AVOIDANCE_MODE CHARACTER_AVOIDANCE_MODE]</string>
+		<key>characterdesiredspeed</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_DESIRED_SPEED CHARACTER_DESIRED_SPEED]</string>
+		<key>characterdesiredturnspeed</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_DESIRED_TURN_SPEED CHARACTER_DESIRED_TURN_SPEED]</string>
+		<key>characterlength</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_LENGTH CHARACTER_LENGTH]</string>
+		<key>charactermaxaccel</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_MAX_ACCEL CHARACTER_MAX_ACCEL]</string>
+		<key>charactermaxdecel</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_MAX_DECEL CHARACTER_MAX_DECEL]</string>
+		<key>charactermaxspeed</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_MAX_SPEED CHARACTER_MAX_SPEED]</string>
+		<key>charactermaxturnradius</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_MAX_TURN_RADIUS CHARACTER_MAX_TURN_RADIUS]</string>
+		<key>characterorientation</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_ORIENTATION CHARACTER_ORIENTATION]</string>
+		<key>characterradius</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_RADIUS CHARACTER_RADIUS]</string>
+		<key>characterstaywithinparcel</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_STAY_WITHIN_PARCEL CHARACTER_STAY_WITHIN_PARCEL]</string>
+		<key>charactertype</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_TYPE CHARACTER_TYPE]</string>
+		<key>charactertypea</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_TYPE_A CHARACTER_TYPE_A]</string>
+		<key>charactertypeb</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_TYPE_B CHARACTER_TYPE_B]</string>
+		<key>charactertypec</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_TYPE_C CHARACTER_TYPE_C]</string>
+		<key>charactertyped</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_TYPE_D CHARACTER_TYPE_D]</string>
+		<key>charactertypenone</key>
+			<string>[http://wiki.secondlife.com/wiki/CHARACTER_TYPE_NONE CHARACTER_TYPE_NONE]</string>
+		<key>clickactionbuy</key>
+			<string>[http://wiki.secondlife.com/wiki/CLICK_ACTION_BUY CLICK_ACTION_BUY]</string>
+		<key>clickactionnone</key>
+			<string>[http://wiki.secondlife.com/wiki/CLICK_ACTION_NONE CLICK_ACTION_NONE]</string>
+		<key>clickactionopen</key>
+			<string>[http://wiki.secondlife.com/wiki/CLICK_ACTION_OPEN CLICK_ACTION_OPEN]</string>
+		<key>clickactionopenmedia</key>
+			<string>[http://wiki.secondlife.com/wiki/CLICK_ACTION_OPEN_MEDIA CLICK_ACTION_OPEN_MEDIA]</string>
+		<key>clickactionpay</key>
+			<string>[http://wiki.secondlife.com/wiki/CLICK_ACTION_PAY CLICK_ACTION_PAY]</string>
+		<key>clickactionplay</key>
+			<string>[http://wiki.secondlife.com/wiki/CLICK_ACTION_PLAY CLICK_ACTION_PLAY]</string>
+		<key>clickactionsit</key>
+			<string>[http://wiki.secondlife.com/wiki/CLICK_ACTION_SIT CLICK_ACTION_SIT]</string>
+		<key>clickactiontouch</key>
+			<string>[http://wiki.secondlife.com/wiki/CLICK_ACTION_TOUCH CLICK_ACTION_TOUCH]</string>
+		<key>clickactionzoom</key>
+			<string>[http://wiki.secondlife.com/wiki/CLICK_ACTION_ZOOM CLICK_ACTION_ZOOM]</string>
+		<key>contenttypeatom</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTENT_TYPE_ATOM CONTENT_TYPE_ATOM]</string>
+		<key>contenttypeform</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTENT_TYPE_FORM CONTENT_TYPE_FORM]</string>
+		<key>contenttypehtml</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTENT_TYPE_HTML CONTENT_TYPE_HTML]</string>
+		<key>contenttypejson</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTENT_TYPE_JSON CONTENT_TYPE_JSON]</string>
+		<key>contenttypellsd</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTENT_TYPE_LLSD CONTENT_TYPE_LLSD]</string>
+		<key>contenttyperss</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTENT_TYPE_RSS CONTENT_TYPE_RSS]</string>
+		<key>contenttypetext</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTENT_TYPE_TEXT CONTENT_TYPE_TEXT]</string>
+		<key>contenttypexhtml</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTENT_TYPE_XHTML CONTENT_TYPE_XHTML]</string>
+		<key>contenttypexml</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTENT_TYPE_XML CONTENT_TYPE_XML]</string>
+		<key>controlback</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTROL_BACK CONTROL_BACK]</string>
+		<key>controldown</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTROL_DOWN CONTROL_DOWN]</string>
+		<key>controlfwd</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTROL_FWD CONTROL_FWD]</string>
+		<key>controllbutton</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTROL_LBUTTON CONTROL_LBUTTON]</string>
+		<key>controlleft</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTROL_LEFT CONTROL_LEFT]</string>
+		<key>controlmllbutton</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTROL_ML_LBUTTON CONTROL_ML_LBUTTON]</string>
+		<key>controlright</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTROL_RIGHT CONTROL_RIGHT]</string>
+		<key>controlrotleft</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTROL_ROT_LEFT CONTROL_ROT_LEFT]</string>
+		<key>controlrotright</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTROL_ROT_RIGHT CONTROL_ROT_RIGHT]</string>
+		<key>controlup</key>
+			<string>[http://wiki.secondlife.com/wiki/CONTROL_UP CONTROL_UP]</string>
+		<key>databorn</key>
+			<string>[http://wiki.secondlife.com/wiki/DATA_BORN DATA_BORN]</string>
+		<key>dataname</key>
+			<string>[http://wiki.secondlife.com/wiki/DATA_NAME DATA_NAME]</string>
+		<key>dataonline</key>
+			<string>[http://wiki.secondlife.com/wiki/DATA_ONLINE DATA_ONLINE]</string>
+		<key>datapayinfo</key>
+			<string>[http://wiki.secondlife.com/wiki/DATA_PAYINFO DATA_PAYINFO]</string>
+		<key>datarating</key>
+			<string>[http://wiki.secondlife.com/wiki/DATA_RATING DATA_RATING]</string>
+		<key>datasimpos</key>
+			<string>[http://wiki.secondlife.com/wiki/DATA_SIM_POS DATA_SIM_POS]</string>
+		<key>datasimrating</key>
+			<string>[http://wiki.secondlife.com/wiki/DATA_SIM_RATING DATA_SIM_RATING]</string>
+		<key>datasimstatus</key>
+			<string>[http://wiki.secondlife.com/wiki/DATA_SIM_STATUS DATA_SIM_STATUS]</string>
+		<key>debugchannel</key>
+			<string>[http://wiki.secondlife.com/wiki/DEBUG_CHANNEL DEBUG_CHANNEL]</string>
+		<key>degtorad</key>
+			<string>[http://wiki.secondlife.com/wiki/DEG_TO_RAD DEG_TO_RAD]</string>
+		<key>eof</key>
+			<string>[http://wiki.secondlife.com/wiki/EOF EOF]</string>
+		<key>errgeneric</key>
+			<string>[http://wiki.secondlife.com/wiki/ERR_GENERIC ERR_GENERIC]</string>
+		<key>errmalformedparams</key>
+			<string>[http://wiki.secondlife.com/wiki/ERR_MALFORMED_PARAMS ERR_MALFORMED_PARAMS]</string>
+		<key>errparcelpermissions</key>
+			<string>[http://wiki.secondlife.com/wiki/ERR_PARCEL_PERMISSIONS ERR_PARCEL_PERMISSIONS]</string>
+		<key>errruntimepermissions</key>
+			<string>[http://wiki.secondlife.com/wiki/ERR_RUNTIME_PERMISSIONS ERR_RUNTIME_PERMISSIONS]</string>
+		<key>errthrottled</key>
+			<string>[http://wiki.secondlife.com/wiki/ERR_THROTTLED ERR_THROTTLED]</string>
+		<key>estateaccessallowedagentadd</key>
+			<string>[http://wiki.secondlife.com/wiki/ESTATE_ACCESS_ALLOWED_AGENT_ADD ESTATE_ACCESS_ALLOWED_AGENT_ADD]</string>
+		<key>estateaccessallowedagentremove</key>
+			<string>[http://wiki.secondlife.com/wiki/ESTATE_ACCESS_ALLOWED_AGENT_REMOVE ESTATE_ACCESS_ALLOWED_AGENT_REMOVE]</string>
+		<key>estateaccessallowedgroupadd</key>
+			<string>[http://wiki.secondlife.com/wiki/ESTATE_ACCESS_ALLOWED_GROUP_ADD ESTATE_ACCESS_ALLOWED_GROUP_ADD]</string>
+		<key>estateaccessallowedgroupremove</key>
+			<string>[http://wiki.secondlife.com/wiki/ESTATE_ACCESS_ALLOWED_GROUP_REMOVE ESTATE_ACCESS_ALLOWED_GROUP_REMOVE]</string>
+		<key>estateaccessbannedagentadd</key>
+			<string>[http://wiki.secondlife.com/wiki/ESTATE_ACCESS_BANNED_AGENT_ADD ESTATE_ACCESS_BANNED_AGENT_ADD]</string>
+		<key>estateaccessbannedagentremove</key>
+			<string>[http://wiki.secondlife.com/wiki/ESTATE_ACCESS_BANNED_AGENT_REMOVE ESTATE_ACCESS_BANNED_AGENT_REMOVE]</string>
+		<key>false</key>
+			<string>[http://wiki.secondlife.com/wiki/FALSE FALSE]</string>
+		<key>forcedirectpath</key>
+			<string>[http://wiki.secondlife.com/wiki/FORCE_DIRECT_PATH FORCE_DIRECT_PATH]</string>
+		<key>horizontal</key>
+			<string>[http://wiki.secondlife.com/wiki/HORIZONTAL HORIZONTAL]</string>
+		<key>httpaccept</key>
+			<string>[http://wiki.secondlife.com/wiki/HTTP_ACCEPT HTTP_ACCEPT]</string>
+		<key>httpbodymaxlength</key>
+			<string>[http://wiki.secondlife.com/wiki/HTTP_BODY_MAXLENGTH HTTP_BODY_MAXLENGTH]</string>
+		<key>httpbodytruncated</key>
+			<string>[http://wiki.secondlife.com/wiki/HTTP_BODY_TRUNCATED HTTP_BODY_TRUNCATED]</string>
+		<key>httpcustomheader</key>
+			<string>[http://wiki.secondlife.com/wiki/HTTP_CUSTOM_HEADER HTTP_CUSTOM_HEADER]</string>
+		<key>httpmethod</key>
+			<string>[http://wiki.secondlife.com/wiki/HTTP_METHOD HTTP_METHOD]</string>
+		<key>httpmimetype</key>
+			<string>[http://wiki.secondlife.com/wiki/HTTP_MIMETYPE HTTP_MIMETYPE]</string>
+		<key>httppragmanocache</key>
+			<string>[http://wiki.secondlife.com/wiki/HTTP_PRAGMA_NO_CACHE HTTP_PRAGMA_NO_CACHE]</string>
+		<key>httpuseragent</key>
+			<string>[http://wiki.secondlife.com/wiki/HTTP_USER_AGENT HTTP_USER_AGENT]</string>
+		<key>httpverbosethrottle</key>
+			<string>[http://wiki.secondlife.com/wiki/HTTP_VERBOSE_THROTTLE HTTP_VERBOSE_THROTTLE]</string>
+		<key>httpverifycert</key>
+			<string>[http://wiki.secondlife.com/wiki/HTTP_VERIFY_CERT HTTP_VERIFY_CERT]</string>
+		<key>inventoryall</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_ALL INVENTORY_ALL]</string>
+		<key>inventoryanimation</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_ANIMATION INVENTORY_ANIMATION]</string>
+		<key>inventorybodypart</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_BODYPART INVENTORY_BODYPART]</string>
+		<key>inventoryclothing</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_CLOTHING INVENTORY_CLOTHING]</string>
+		<key>inventorygesture</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_GESTURE INVENTORY_GESTURE]</string>
+		<key>inventorylandmark</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_LANDMARK INVENTORY_LANDMARK]</string>
+		<key>inventorynone</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_NONE INVENTORY_NONE]</string>
+		<key>inventorynotecard</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_NOTECARD INVENTORY_NOTECARD]</string>
+		<key>inventoryobject</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_OBJECT INVENTORY_OBJECT]</string>
+		<key>inventoryscript</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_SCRIPT INVENTORY_SCRIPT]</string>
+		<key>inventorysetting</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_SETTING INVENTORY_SETTING]</string>
+		<key>inventorysound</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_SOUND INVENTORY_SOUND]</string>
+		<key>inventorytexture</key>
+			<string>[http://wiki.secondlife.com/wiki/INVENTORY_TEXTURE INVENTORY_TEXTURE]</string>
+		<key>jsonappend</key>
+			<string>[http://wiki.secondlife.com/wiki/JSON_APPEND JSON_APPEND]</string>
+		<key>jsonarray</key>
+			<string>[http://wiki.secondlife.com/wiki/JSON_ARRAY JSON_ARRAY]</string>
+		<key>jsondelete</key>
+			<string>[http://wiki.secondlife.com/wiki/JSON_DELETE JSON_DELETE]</string>
+		<key>jsonfalse</key>
+			<string>[http://wiki.secondlife.com/wiki/JSON_FALSE JSON_FALSE]</string>
+		<key>jsoninvalid</key>
+			<string>[http://wiki.secondlife.com/wiki/JSON_INVALID JSON_INVALID]</string>
+		<key>jsonnull</key>
+			<string>[http://wiki.secondlife.com/wiki/JSON_NULL JSON_NULL]</string>
+		<key>jsonnumber</key>
+			<string>[http://wiki.secondlife.com/wiki/JSON_NUMBER JSON_NUMBER]</string>
+		<key>jsonobject</key>
+			<string>[http://wiki.secondlife.com/wiki/JSON_OBJECT JSON_OBJECT]</string>
+		<key>jsonstring</key>
+			<string>[http://wiki.secondlife.com/wiki/JSON_STRING JSON_STRING]</string>
+		<key>jsontrue</key>
+			<string>[http://wiki.secondlife.com/wiki/JSON_TRUE JSON_TRUE]</string>
+		<key>kfmcmdpause</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_CMD_PAUSE KFM_CMD_PAUSE]</string>
+		<key>kfmcmdplay</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_CMD_PLAY KFM_CMD_PLAY]</string>
+		<key>kfmcmdstop</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_CMD_STOP KFM_CMD_STOP]</string>
+		<key>kfmcommand</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_COMMAND KFM_COMMAND]</string>
+		<key>kfmdata</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_DATA KFM_DATA]</string>
+		<key>kfmforward</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_FORWARD KFM_FORWARD]</string>
+		<key>kfmloop</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_LOOP KFM_LOOP]</string>
+		<key>kfmmode</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_MODE KFM_MODE]</string>
+		<key>kfmpingpong</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_PING_PONG KFM_PING_PONG]</string>
+		<key>kfmreverse</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_REVERSE KFM_REVERSE]</string>
+		<key>kfmrotation</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_ROTATION KFM_ROTATION]</string>
+		<key>kfmtranslation</key>
+			<string>[http://wiki.secondlife.com/wiki/KFM_TRANSLATION KFM_TRANSLATION]</string>
+		<key>landlevel</key>
+			<string>[http://wiki.secondlife.com/wiki/LAND_LEVEL LAND_LEVEL]</string>
+		<key>landlower</key>
+			<string>[http://wiki.secondlife.com/wiki/LAND_LOWER LAND_LOWER]</string>
+		<key>landnoise</key>
+			<string>[http://wiki.secondlife.com/wiki/LAND_NOISE LAND_NOISE]</string>
+		<key>landraise</key>
+			<string>[http://wiki.secondlife.com/wiki/LAND_RAISE LAND_RAISE]</string>
+		<key>landrevert</key>
+			<string>[http://wiki.secondlife.com/wiki/LAND_REVERT LAND_REVERT]</string>
+		<key>landsmooth</key>
+			<string>[http://wiki.secondlife.com/wiki/LAND_SMOOTH LAND_SMOOTH]</string>
+		<key>linkallchildren</key>
+			<string>[http://wiki.secondlife.com/wiki/LINK_ALL_CHILDREN LINK_ALL_CHILDREN]</string>
+		<key>linkallothers</key>
+			<string>[http://wiki.secondlife.com/wiki/LINK_ALL_OTHERS LINK_ALL_OTHERS]</string>
+		<key>linkroot</key>
+			<string>[http://wiki.secondlife.com/wiki/LINK_ROOT LINK_ROOT]</string>
+		<key>linkset</key>
+			<string>[http://wiki.secondlife.com/wiki/LINK_SET LINK_SET]</string>
+		<key>linkthis</key>
+			<string>[http://wiki.secondlife.com/wiki/LINK_THIS LINK_THIS]</string>
+		<key>liststatgeometricmean</key>
+			<string>[http://wiki.secondlife.com/wiki/LIST_STAT_GEOMETRIC_MEAN LIST_STAT_GEOMETRIC_MEAN]</string>
+		<key>liststatmax</key>
+			<string>[http://wiki.secondlife.com/wiki/LIST_STAT_MAX LIST_STAT_MAX]</string>
+		<key>liststatmean</key>
+			<string>[http://wiki.secondlife.com/wiki/LIST_STAT_MEAN LIST_STAT_MEAN]</string>
+		<key>liststatmedian</key>
+			<string>[http://wiki.secondlife.com/wiki/LIST_STAT_MEDIAN LIST_STAT_MEDIAN]</string>
+		<key>liststatmin</key>
+			<string>[http://wiki.secondlife.com/wiki/LIST_STAT_MIN LIST_STAT_MIN]</string>
+		<key>liststatnumcount</key>
+			<string>[http://wiki.secondlife.com/wiki/LIST_STAT_NUM_COUNT LIST_STAT_NUM_COUNT]</string>
+		<key>liststatrange</key>
+			<string>[http://wiki.secondlife.com/wiki/LIST_STAT_RANGE LIST_STAT_RANGE]</string>
+		<key>liststatstddev</key>
+			<string>[http://wiki.secondlife.com/wiki/LIST_STAT_STD_DEV LIST_STAT_STD_DEV]</string>
+		<key>liststatsum</key>
+			<string>[http://wiki.secondlife.com/wiki/LIST_STAT_SUM LIST_STAT_SUM]</string>
+		<key>liststatsumsquares</key>
+			<string>[http://wiki.secondlife.com/wiki/LIST_STAT_SUM_SQUARES LIST_STAT_SUM_SQUARES]</string>
+		<key>llgetgroup</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetGroup LlGetGroup]</string>
+		<key>loop</key>
+			<string>[http://wiki.secondlife.com/wiki/LOOP LOOP]</string>
+		<key>maskbase</key>
+			<string>[http://wiki.secondlife.com/wiki/MASK_BASE MASK_BASE]</string>
+		<key>maskeveryone</key>
+			<string>[http://wiki.secondlife.com/wiki/MASK_EVERYONE MASK_EVERYONE]</string>
+		<key>maskgroup</key>
+			<string>[http://wiki.secondlife.com/wiki/MASK_GROUP MASK_GROUP]</string>
+		<key>masknext</key>
+			<string>[http://wiki.secondlife.com/wiki/MASK_NEXT MASK_NEXT]</string>
+		<key>maskowner</key>
+			<string>[http://wiki.secondlife.com/wiki/MASK_OWNER MASK_OWNER]</string>
+		<key>nullkey</key>
+			<string>[http://wiki.secondlife.com/wiki/NULL_KEY NULL_KEY]</string>
+		<key>objectattachedpoint</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_ATTACHED_POINT OBJECT_ATTACHED_POINT]</string>
+		<key>objectattachedslotsavailable</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_ATTACHED_SLOTS_AVAILABLE OBJECT_ATTACHED_SLOTS_AVAILABLE]</string>
+		<key>objectbodyshapetype</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_BODY_SHAPE_TYPE OBJECT_BODY_SHAPE_TYPE]</string>
+		<key>objectcharactertime</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_CHARACTER_TIME OBJECT_CHARACTER_TIME]</string>
+		<key>objectclickaction</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_CLICK_ACTION OBJECT_CLICK_ACTION]</string>
+		<key>objectcreator</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_CREATOR OBJECT_CREATOR]</string>
+		<key>objectdesc</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_DESC OBJECT_DESC]</string>
+		<key>objectgroup</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_GROUP OBJECT_GROUP]</string>
+		<key>objecthoverheight</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_HOVER_HEIGHT OBJECT_HOVER_HEIGHT]</string>
+		<key>objectlastownerid</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_LAST_OWNER_ID OBJECT_LAST_OWNER_ID]</string>
+		<key>objectname</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_NAME OBJECT_NAME]</string>
+		<key>objectomega</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_OMEGA OBJECT_OMEGA]</string>
+		<key>objectowner</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_OWNER OBJECT_OWNER]</string>
+		<key>objectpathfindingtype</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_PATHFINDING_TYPE OBJECT_PATHFINDING_TYPE]</string>
+		<key>objectphantom</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_PHANTOM OBJECT_PHANTOM]</string>
+		<key>objectphysics</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_PHYSICS OBJECT_PHYSICS]</string>
+		<key>objectphysicscost</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_PHYSICS_COST OBJECT_PHYSICS_COST]</string>
+		<key>objectpos</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_POS OBJECT_POS]</string>
+		<key>objectprimcount</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_PRIM_COUNT OBJECT_PRIM_COUNT]</string>
+		<key>objectprimequivalence</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_PRIM_EQUIVALENCE OBJECT_PRIM_EQUIVALENCE]</string>
+		<key>objectrenderweight</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_RENDER_WEIGHT OBJECT_RENDER_WEIGHT]</string>
+		<key>objectreturnparcel</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_RETURN_PARCEL OBJECT_RETURN_PARCEL]</string>
+		<key>objectreturnparcelowner</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_RETURN_PARCEL_OWNER OBJECT_RETURN_PARCEL_OWNER]</string>
+		<key>objectreturnregion</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_RETURN_REGION OBJECT_RETURN_REGION]</string>
+		<key>objectroot</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_ROOT OBJECT_ROOT]</string>
+		<key>objectrot</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_ROT OBJECT_ROT]</string>
+		<key>objectrunningscriptcount</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_RUNNING_SCRIPT_COUNT OBJECT_RUNNING_SCRIPT_COUNT]</string>
+		<key>objectscriptmemory</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_SCRIPT_MEMORY OBJECT_SCRIPT_MEMORY]</string>
+		<key>objectscripttime</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_SCRIPT_TIME OBJECT_SCRIPT_TIME]</string>
+		<key>objectselectcount</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_SELECT_COUNT OBJECT_SELECT_COUNT]</string>
+		<key>objectservercost</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_SERVER_COST OBJECT_SERVER_COST]</string>
+		<key>objectstreamingcost</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_STREAMING_COST OBJECT_STREAMING_COST]</string>
+		<key>objecttemponrez</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_TEMP_ON_REZ OBJECT_TEMP_ON_REZ]</string>
+		<key>objecttotalinventorycount</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_TOTAL_INVENTORY_COUNT OBJECT_TOTAL_INVENTORY_COUNT]</string>
+		<key>objecttotalscriptcount</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_TOTAL_SCRIPT_COUNT OBJECT_TOTAL_SCRIPT_COUNT]</string>
+		<key>objectunknowndetail</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_UNKNOWN_DETAIL OBJECT_UNKNOWN_DETAIL]</string>
+		<key>objectvelocity</key>
+			<string>[http://wiki.secondlife.com/wiki/OBJECT_VELOCITY OBJECT_VELOCITY]</string>
+		<key>optcharacter</key>
+			<string>[http://wiki.secondlife.com/wiki/OPT_CHARACTER OPT_CHARACTER]</string>
+		<key>optavatar</key>
+			<string>[http://wiki.secondlife.com/wiki/OPT_AVATAR OPT_AVATAR]</string>
+		<key>optexclusionvolume</key>
+			<string>[http://wiki.secondlife.com/wiki/OPT_EXCLUSION_VOLUME OPT_EXCLUSION_VOLUME]</string>
+		<key>optlegacylinkset</key>
+			<string>[http://wiki.secondlife.com/wiki/OPT_LEGACY_LINKSET OPT_LEGACY_LINKSET]</string>
+		<key>optmaterialvolume</key>
+			<string>[http://wiki.secondlife.com/wiki/OPT_MATERIAL_VOLUME OPT_MATERIAL_VOLUME]</string>
+		<key>optother</key>
+			<string>[http://wiki.secondlife.com/wiki/OPT_OTHER OPT_OTHER]</string>
+		<key>optstaticobstacle</key>
+			<string>[http://wiki.secondlife.com/wiki/OPT_STATIC_OBSTACLE OPT_STATIC_OBSTACLE]</string>
+		<key>optwalkable</key>
+			<string>[http://wiki.secondlife.com/wiki/OPT_WALKABLE OPT_WALKABLE]</string>
+		<key>parcelcountgroup</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_COUNT_GROUP PARCEL_COUNT_GROUP]</string>
+		<key>parcelcountother</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_COUNT_OTHER PARCEL_COUNT_OTHER]</string>
+		<key>parcelcountowner</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_COUNT_OWNER PARCEL_COUNT_OWNER]</string>
+		<key>parcelcountselected</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_COUNT_SELECTED PARCEL_COUNT_SELECTED]</string>
+		<key>parcelcounttemp</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_COUNT_TEMP PARCEL_COUNT_TEMP]</string>
+		<key>parcelcounttotal</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_COUNT_TOTAL PARCEL_COUNT_TOTAL]</string>
+		<key>parceldetailsarea</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_DETAILS_AREA PARCEL_DETAILS_AREA]</string>
+		<key>parceldetailsdesc</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_DETAILS_DESC PARCEL_DETAILS_DESC]</string>
+		<key>parceldetailsgroup</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_DETAILS_GROUP PARCEL_DETAILS_GROUP]</string>
+		<key>parceldetailsid</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_DETAILS_ID PARCEL_DETAILS_ID]</string>
+		<key>parceldetailsname</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_DETAILS_NAME PARCEL_DETAILS_NAME]</string>
+		<key>parceldetailsowner</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_DETAILS_OWNER PARCEL_DETAILS_OWNER]</string>
+		<key>parceldetailsseeavatars</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_DETAILS_SEE_AVATARS PARCEL_DETAILS_SEE_AVATARS]</string>
+		<key>parcelflagallowallobjectentry</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_ALLOW_ALL_OBJECT_ENTRY PARCEL_FLAG_ALLOW_ALL_OBJECT_ENTRY]</string>
+		<key>parcelflagallowcreategroupobjects</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_ALLOW_CREATE_GROUP_OBJECTS PARCEL_FLAG_ALLOW_CREATE_GROUP_OBJECTS]</string>
+		<key>parcelflagallowcreateobjects</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_ALLOW_CREATE_OBJECTS PARCEL_FLAG_ALLOW_CREATE_OBJECTS]</string>
+		<key>parcelflagallowdamage</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_ALLOW_DAMAGE PARCEL_FLAG_ALLOW_DAMAGE]</string>
+		<key>parcelflagallowfly</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_ALLOW_FLY PARCEL_FLAG_ALLOW_FLY]</string>
+		<key>parcelflagallowgroupobjectentry</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_ALLOW_GROUP_OBJECT_ENTRY PARCEL_FLAG_ALLOW_GROUP_OBJECT_ENTRY]</string>
+		<key>parcelflagallowgroupscripts</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_ALLOW_GROUP_SCRIPTS PARCEL_FLAG_ALLOW_GROUP_SCRIPTS]</string>
+		<key>parcelflagallowlandmark</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_ALLOW_LANDMARK PARCEL_FLAG_ALLOW_LANDMARK]</string>
+		<key>parcelflagallowscripts</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_ALLOW_SCRIPTS PARCEL_FLAG_ALLOW_SCRIPTS]</string>
+		<key>parcelflagallowterraform</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_ALLOW_TERRAFORM PARCEL_FLAG_ALLOW_TERRAFORM]</string>
+		<key>parcelflaglocalsoundonly</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_LOCAL_SOUND_ONLY PARCEL_FLAG_LOCAL_SOUND_ONLY]</string>
+		<key>parcelflagrestrictpushobject</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_RESTRICT_PUSHOBJECT PARCEL_FLAG_RESTRICT_PUSHOBJECT]</string>
+		<key>parcelflaguseaccessgroup</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_USE_ACCESS_GROUP PARCEL_FLAG_USE_ACCESS_GROUP]</string>
+		<key>parcelflaguseaccesslist</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_USE_ACCESS_LIST PARCEL_FLAG_USE_ACCESS_LIST]</string>
+		<key>parcelflagusebanlist</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_USE_BAN_LIST PARCEL_FLAG_USE_BAN_LIST]</string>
+		<key>parcelflaguselandpasslist</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_FLAG_USE_LAND_PASS_LIST PARCEL_FLAG_USE_LAND_PASS_LIST]</string>
+		<key>parcelmediacommandagent</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_AGENT PARCEL_MEDIA_COMMAND_AGENT]</string>
+		<key>parcelmediacommandautoalign</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_AUTO_ALIGN PARCEL_MEDIA_COMMAND_AUTO_ALIGN]</string>
+		<key>parcelmediacommanddesc</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_DESC PARCEL_MEDIA_COMMAND_DESC]</string>
+		<key>parcelmediacommandloop</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_LOOP PARCEL_MEDIA_COMMAND_LOOP]</string>
+		<key>parcelmediacommandloopset</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_LOOP_SET PARCEL_MEDIA_COMMAND_LOOP_SET]</string>
+		<key>parcelmediacommandpause</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_PAUSE PARCEL_MEDIA_COMMAND_PAUSE]</string>
+		<key>parcelmediacommandplay</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_PLAY PARCEL_MEDIA_COMMAND_PLAY]</string>
+		<key>parcelmediacommandsize</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_SIZE PARCEL_MEDIA_COMMAND_SIZE]</string>
+		<key>parcelmediacommandstop</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_STOP PARCEL_MEDIA_COMMAND_STOP]</string>
+		<key>parcelmediacommandtexture</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_TEXTURE PARCEL_MEDIA_COMMAND_TEXTURE]</string>
+		<key>parcelmediacommandtime</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_TIME PARCEL_MEDIA_COMMAND_TIME]</string>
+		<key>parcelmediacommandtype</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_TYPE PARCEL_MEDIA_COMMAND_TYPE]</string>
+		<key>parcelmediacommandunload</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_UNLOAD PARCEL_MEDIA_COMMAND_UNLOAD]</string>
+		<key>parcelmediacommandurl</key>
+			<string>[http://wiki.secondlife.com/wiki/PARCEL_MEDIA_COMMAND_URL PARCEL_MEDIA_COMMAND_URL]</string>
+		<key>passive</key>
+			<string>[http://wiki.secondlife.com/wiki/PASSIVE PASSIVE]</string>
+		<key>passalways</key>
+			<string>[http://wiki.secondlife.com/wiki/PASS_ALWAYS PASS_ALWAYS]</string>
+		<key>passifnothandled</key>
+			<string>[http://wiki.secondlife.com/wiki/PASS_IF_NOT_HANDLED PASS_IF_NOT_HANDLED]</string>
+		<key>passnever</key>
+			<string>[http://wiki.secondlife.com/wiki/PASS_NEVER PASS_NEVER]</string>
+		<key>patrolpauseatwaypoints</key>
+			<string>[http://wiki.secondlife.com/wiki/PATROL_PAUSE_AT_WAYPOINTS PATROL_PAUSE_AT_WAYPOINTS]</string>
+		<key>paymentinfoonfile</key>
+			<string>[http://wiki.secondlife.com/wiki/PAYMENT_INFO_ON_FILE PAYMENT_INFO_ON_FILE]</string>
+		<key>paymentinfoused</key>
+			<string>[http://wiki.secondlife.com/wiki/PAYMENT_INFO_USED PAYMENT_INFO_USED]</string>
+		<key>paydefault</key>
+			<string>[http://wiki.secondlife.com/wiki/PAY_DEFAULT PAY_DEFAULT]</string>
+		<key>payhide</key>
+			<string>[http://wiki.secondlife.com/wiki/PAY_HIDE PAY_HIDE]</string>
+		<key>permissionattach</key>
+			<string>[http://wiki.secondlife.com/wiki/PERMISSION_ATTACH PERMISSION_ATTACH]</string>
+		<key>permissionchangelinks</key>
+			<string>[http://wiki.secondlife.com/wiki/PERMISSION_CHANGE_LINKS PERMISSION_CHANGE_LINKS]</string>
+		<key>permissioncontrolcamera</key>
+			<string>[http://wiki.secondlife.com/wiki/PERMISSION_CONTROL_CAMERA PERMISSION_CONTROL_CAMERA]</string>
+		<key>permissiondebit</key>
+			<string>[http://wiki.secondlife.com/wiki/PERMISSION_DEBIT PERMISSION_DEBIT]</string>
+		<key>permissionoverrideanimations</key>
+			<string>[http://wiki.secondlife.com/wiki/PERMISSION_OVERRIDE_ANIMATIONS PERMISSION_OVERRIDE_ANIMATIONS]</string>
+		<key>permissionreturnobjects</key>
+			<string>[http://wiki.secondlife.com/wiki/PERMISSION_RETURN_OBJECTS PERMISSION_RETURN_OBJECTS]</string>
+		<key>permissionsilentestatemanagement</key>
+			<string>[http://wiki.secondlife.com/wiki/PERMISSION_SILENT_ESTATE_MANAGEMENT PERMISSION_SILENT_ESTATE_MANAGEMENT]</string>
+		<key>permissiontakecontrols</key>
+			<string>[http://wiki.secondlife.com/wiki/PERMISSION_TAKE_CONTROLS PERMISSION_TAKE_CONTROLS]</string>
+		<key>permissionteleport</key>
+			<string>[http://wiki.secondlife.com/wiki/PERMISSION_TELEPORT PERMISSION_TELEPORT]</string>
+		<key>permissiontrackcamera</key>
+			<string>[http://wiki.secondlife.com/wiki/PERMISSION_TRACK_CAMERA PERMISSION_TRACK_CAMERA]</string>
+		<key>permissiontriggeranimation</key>
+			<string>[http://wiki.secondlife.com/wiki/PERMISSION_TRIGGER_ANIMATION PERMISSION_TRIGGER_ANIMATION]</string>
+		<key>permall</key>
+			<string>[http://wiki.secondlife.com/wiki/PERM_ALL PERM_ALL]</string>
+		<key>permcopy</key>
+			<string>[http://wiki.secondlife.com/wiki/PERM_COPY PERM_COPY]</string>
+		<key>permmodify</key>
+			<string>[http://wiki.secondlife.com/wiki/PERM_MODIFY PERM_MODIFY]</string>
+		<key>permmove</key>
+			<string>[http://wiki.secondlife.com/wiki/PERM_MOVE PERM_MOVE]</string>
+		<key>permtransfer</key>
+			<string>[http://wiki.secondlife.com/wiki/PERM_TRANSFER PERM_TRANSFER]</string>
+		<key>pi</key>
+			<string>[http://wiki.secondlife.com/wiki/PI PI]</string>
+		<key>pingpong</key>
+			<string>[http://wiki.secondlife.com/wiki/PING_PONG PING_PONG]</string>
+		<key>pibytwo</key>
+			<string>[http://wiki.secondlife.com/wiki/PI_BY_TWO PI_BY_TWO]</string>
+		<key>primallowunsit</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_ALLOW_UNSIT PRIM_ALLOW_UNSIT]</string>
+		<key>primalphamode</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_ALPHA_MODE PRIM_ALPHA_MODE]</string>
+		<key>primalphamodeblend</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_ALPHA_MODE_BLEND PRIM_ALPHA_MODE_BLEND]</string>
+		<key>primalphamodeemissive</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_ALPHA_MODE_EMISSIVE PRIM_ALPHA_MODE_EMISSIVE]</string>
+		<key>primalphamodemask</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_ALPHA_MODE_MASK PRIM_ALPHA_MODE_MASK]</string>
+		<key>primalphamodenone</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_ALPHA_MODE_NONE PRIM_ALPHA_MODE_NONE]</string>
+		<key>primbumpbark</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_BARK PRIM_BUMP_BARK]</string>
+		<key>primbumpblobs</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_BLOBS PRIM_BUMP_BLOBS]</string>
+		<key>primbumpbricks</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_BRICKS PRIM_BUMP_BRICKS]</string>
+		<key>primbumpbright</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_BRIGHT PRIM_BUMP_BRIGHT]</string>
+		<key>primbumpchecker</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_CHECKER PRIM_BUMP_CHECKER]</string>
+		<key>primbumpconcrete</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_CONCRETE PRIM_BUMP_CONCRETE]</string>
+		<key>primbumpdark</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_DARK PRIM_BUMP_DARK]</string>
+		<key>primbumpdisks</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_DISKS PRIM_BUMP_DISKS]</string>
+		<key>primbumpgravel</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_GRAVEL PRIM_BUMP_GRAVEL]</string>
+		<key>primbumplargetile</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_LARGETILE PRIM_BUMP_LARGETILE]</string>
+		<key>primbumpnone</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_NONE PRIM_BUMP_NONE]</string>
+		<key>primbumpshiny</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_SHINY PRIM_BUMP_SHINY]</string>
+		<key>primbumpsiding</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_SIDING PRIM_BUMP_SIDING]</string>
+		<key>primbumpstone</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_STONE PRIM_BUMP_STONE]</string>
+		<key>primbumpstucco</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_STUCCO PRIM_BUMP_STUCCO]</string>
+		<key>primbumpsuction</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_SUCTION PRIM_BUMP_SUCTION]</string>
+		<key>primbumptile</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_TILE PRIM_BUMP_TILE]</string>
+		<key>primbumpweave</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_WEAVE PRIM_BUMP_WEAVE]</string>
+		<key>primbumpwood</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_BUMP_WOOD PRIM_BUMP_WOOD]</string>
+		<key>primcolor</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_COLOR PRIM_COLOR]</string>
+		<key>primdesc</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_DESC PRIM_DESC]</string>
+		<key>primflexible</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_FLEXIBLE PRIM_FLEXIBLE]</string>
+		<key>primfullbright</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_FULLBRIGHT PRIM_FULLBRIGHT]</string>
+		<key>primglow</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_GLOW PRIM_GLOW]</string>
+		<key>primholecircle</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_HOLE_CIRCLE PRIM_HOLE_CIRCLE]</string>
+		<key>primholedefault</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_HOLE_DEFAULT PRIM_HOLE_DEFAULT]</string>
+		<key>primholesquare</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_HOLE_SQUARE PRIM_HOLE_SQUARE]</string>
+		<key>primholetriangle</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_HOLE_TRIANGLE PRIM_HOLE_TRIANGLE]</string>
+		<key>primlinktarget</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_LINK_TARGET PRIM_LINK_TARGET]</string>
+		<key>primmaterial</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MATERIAL PRIM_MATERIAL]</string>
+		<key>primmaterialflesh</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MATERIAL_FLESH PRIM_MATERIAL_FLESH]</string>
+		<key>primmaterialglass</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MATERIAL_GLASS PRIM_MATERIAL_GLASS]</string>
+		<key>primmateriallight</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MATERIAL_LIGHT PRIM_MATERIAL_LIGHT]</string>
+		<key>primmaterialmetal</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MATERIAL_METAL PRIM_MATERIAL_METAL]</string>
+		<key>primmaterialplastic</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MATERIAL_PLASTIC PRIM_MATERIAL_PLASTIC]</string>
+		<key>primmaterialrubber</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MATERIAL_RUBBER PRIM_MATERIAL_RUBBER]</string>
+		<key>primmaterialstone</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MATERIAL_STONE PRIM_MATERIAL_STONE]</string>
+		<key>primmaterialwood</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MATERIAL_WOOD PRIM_MATERIAL_WOOD]</string>
+		<key>primmediaaltimageenable</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_ALT_IMAGE_ENABLE PRIM_MEDIA_ALT_IMAGE_ENABLE]</string>
+		<key>primmediaautoloop</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_AUTO_LOOP PRIM_MEDIA_AUTO_LOOP]</string>
+		<key>primmediaautoplay</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_AUTO_PLAY PRIM_MEDIA_AUTO_PLAY]</string>
+		<key>primmediaautoscale</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_AUTO_SCALE PRIM_MEDIA_AUTO_SCALE]</string>
+		<key>primmediaautozoom</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_AUTO_ZOOM PRIM_MEDIA_AUTO_ZOOM]</string>
+		<key>primmediacurrenturl</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_CURRENT_URL PRIM_MEDIA_CURRENT_URL]</string>
+		<key>primmediafirstclickinteract</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_FIRST_CLICK_INTERACT PRIM_MEDIA_FIRST_CLICK_INTERACT]</string>
+		<key>primmediaheightpixels</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_HEIGHT_PIXELS PRIM_MEDIA_HEIGHT_PIXELS]</string>
+		<key>primmediahomeurl</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_HOME_URL PRIM_MEDIA_HOME_URL]</string>
+		<key>primmediapermscontrol</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_PERMS_CONTROL PRIM_MEDIA_PERMS_CONTROL]</string>
+		<key>primmediapermsinteract</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_PERMS_INTERACT PRIM_MEDIA_PERMS_INTERACT]</string>
+		<key>primmediapermanyone</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_PERM_ANYONE PRIM_MEDIA_PERM_ANYONE]</string>
+		<key>primmediapermgroup</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_PERM_GROUP PRIM_MEDIA_PERM_GROUP]</string>
+		<key>primmediapermnone</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_PERM_NONE PRIM_MEDIA_PERM_NONE]</string>
+		<key>primmediapermowner</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_PERM_OWNER PRIM_MEDIA_PERM_OWNER]</string>
+		<key>primmediawhitelist</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_WHITELIST PRIM_MEDIA_WHITELIST]</string>
+		<key>primmediawhitelistenable</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_WHITELIST_ENABLE PRIM_MEDIA_WHITELIST_ENABLE]</string>
+		<key>primmediawidthpixels</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_MEDIA_WIDTH_PIXELS PRIM_MEDIA_WIDTH_PIXELS]</string>
+		<key>primname</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_NAME PRIM_NAME]</string>
+		<key>primnormal</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_NORMAL PRIM_NORMAL]</string>
+		<key>primomega</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_OMEGA PRIM_OMEGA]</string>
+		<key>primphantom</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_PHANTOM PRIM_PHANTOM]</string>
+		<key>primphysics</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_PHYSICS PRIM_PHYSICS]</string>
+		<key>primphysicsshapeconvex</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_PHYSICS_SHAPE_CONVEX PRIM_PHYSICS_SHAPE_CONVEX]</string>
+		<key>primphysicsshapenone</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_PHYSICS_SHAPE_NONE PRIM_PHYSICS_SHAPE_NONE]</string>
+		<key>primphysicsshapeprim</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_PHYSICS_SHAPE_PRIM PRIM_PHYSICS_SHAPE_PRIM]</string>
+		<key>primphysicsshapetype</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_PHYSICS_SHAPE_TYPE PRIM_PHYSICS_SHAPE_TYPE]</string>
+		<key>primpointlight</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_POINT_LIGHT PRIM_POINT_LIGHT]</string>
+		<key>primposition</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_POSITION PRIM_POSITION]</string>
+		<key>primposlocal</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_POS_LOCAL PRIM_POS_LOCAL]</string>
+		<key>primprojector</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_PROJECTOR PRIM_PROJECTOR]</string>
+		<key>primrotation</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_ROTATION PRIM_ROTATION]</string>
+		<key>primrotlocal</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_ROT_LOCAL PRIM_ROT_LOCAL]</string>
+		<key>primscriptedsitonly</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SCRIPTED_SIT_ONLY PRIM_SCRIPTED_SIT_ONLY]</string>
+		<key>primsculptflaginvert</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SCULPT_FLAG_INVERT PRIM_SCULPT_FLAG_INVERT]</string>
+		<key>primsculptflagmirror</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SCULPT_FLAG_MIRROR PRIM_SCULPT_FLAG_MIRROR]</string>
+		<key>primsculpttypecylinder</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SCULPT_TYPE_CYLINDER PRIM_SCULPT_TYPE_CYLINDER]</string>
+		<key>primsculpttypemask</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SCULPT_TYPE_MASK PRIM_SCULPT_TYPE_MASK]</string>
+		<key>primsculpttypeplane</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SCULPT_TYPE_PLANE PRIM_SCULPT_TYPE_PLANE]</string>
+		<key>primsculpttypesphere</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SCULPT_TYPE_SPHERE PRIM_SCULPT_TYPE_SPHERE]</string>
+		<key>primsculpttypetorus</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SCULPT_TYPE_TORUS PRIM_SCULPT_TYPE_TORUS]</string>
+		<key>primshinyhigh</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SHINY_HIGH PRIM_SHINY_HIGH]</string>
+		<key>primshinylow</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SHINY_LOW PRIM_SHINY_LOW]</string>
+		<key>primshinymedium</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SHINY_MEDIUM PRIM_SHINY_MEDIUM]</string>
+		<key>primshinynone</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SHINY_NONE PRIM_SHINY_NONE]</string>
+		<key>primsittarget</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SIT_TARGET PRIM_SIT_TARGET]</string>
+		<key>primsize</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SIZE PRIM_SIZE]</string>
+		<key>primslice</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SLICE PRIM_SLICE]</string>
+		<key>primspecular</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_SPECULAR PRIM_SPECULAR]</string>
+		<key>primtemponrez</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TEMP_ON_REZ PRIM_TEMP_ON_REZ]</string>
+		<key>primtexgen</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TEXGEN PRIM_TEXGEN]</string>
+		<key>primtexgendefault</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TEXGEN_DEFAULT PRIM_TEXGEN_DEFAULT]</string>
+		<key>primtexgenplanar</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TEXGEN_PLANAR PRIM_TEXGEN_PLANAR]</string>
+		<key>primtext</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TEXT PRIM_TEXT]</string>
+		<key>primtexture</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TEXTURE PRIM_TEXTURE]</string>
+		<key>primtype</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TYPE PRIM_TYPE]</string>
+		<key>primtypebox</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TYPE_BOX PRIM_TYPE_BOX]</string>
+		<key>primtypecylinder</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TYPE_CYLINDER PRIM_TYPE_CYLINDER]</string>
+		<key>primtypeprism</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TYPE_PRISM PRIM_TYPE_PRISM]</string>
+		<key>primtypering</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TYPE_RING PRIM_TYPE_RING]</string>
+		<key>primtypesculpt</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TYPE_SCULPT PRIM_TYPE_SCULPT]</string>
+		<key>primtypesphere</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TYPE_SPHERE PRIM_TYPE_SPHERE]</string>
+		<key>primtypetorus</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TYPE_TORUS PRIM_TYPE_TORUS]</string>
+		<key>primtypetube</key>
+			<string>[http://wiki.secondlife.com/wiki/PRIM_TYPE_TUBE PRIM_TYPE_TUBE]</string>
+		<key>profilenone</key>
+			<string>[http://wiki.secondlife.com/wiki/PROFILE_NONE PROFILE_NONE]</string>
+		<key>profilescriptmemory</key>
+			<string>[http://wiki.secondlife.com/wiki/PROFILE_SCRIPT_MEMORY PROFILE_SCRIPT_MEMORY]</string>
+		<key>publicchannel</key>
+			<string>[http://wiki.secondlife.com/wiki/PUBLIC_CHANNEL PUBLIC_CHANNEL]</string>
+		<key>radtodeg</key>
+			<string>[http://wiki.secondlife.com/wiki/RAD_TO_DEG RAD_TO_DEG]</string>
+		<key>rcerrcasttimeexceeded</key>
+			<string>[http://wiki.secondlife.com/wiki/RCERR_CAST_TIME_EXCEEDED RCERR_CAST_TIME_EXCEEDED]</string>
+		<key>rcerrsimperflow</key>
+			<string>[http://wiki.secondlife.com/wiki/RCERR_SIM_PERF_LOW RCERR_SIM_PERF_LOW]</string>
+		<key>rcerrunknown</key>
+			<string>[http://wiki.secondlife.com/wiki/RCERR_UNKNOWN RCERR_UNKNOWN]</string>
+		<key>rcdataflags</key>
+			<string>[http://wiki.secondlife.com/wiki/RC_DATA_FLAGS RC_DATA_FLAGS]</string>
+		<key>rcdetectphantom</key>
+			<string>[http://wiki.secondlife.com/wiki/RC_DETECT_PHANTOM RC_DETECT_PHANTOM]</string>
+		<key>rcgetlinknum</key>
+			<string>[http://wiki.secondlife.com/wiki/RC_GET_LINK_NUM RC_GET_LINK_NUM]</string>
+		<key>rcgetnormal</key>
+			<string>[http://wiki.secondlife.com/wiki/RC_GET_NORMAL RC_GET_NORMAL]</string>
+		<key>rcgetrootkey</key>
+			<string>[http://wiki.secondlife.com/wiki/RC_GET_ROOT_KEY RC_GET_ROOT_KEY]</string>
+		<key>rcmaxhits</key>
+			<string>[http://wiki.secondlife.com/wiki/RC_MAX_HITS RC_MAX_HITS]</string>
+		<key>rcrejectagents</key>
+			<string>[http://wiki.secondlife.com/wiki/RC_REJECT_AGENTS RC_REJECT_AGENTS]</string>
+		<key>rcrejectland</key>
+			<string>[http://wiki.secondlife.com/wiki/RC_REJECT_LAND RC_REJECT_LAND]</string>
+		<key>rcrejectnonphysical</key>
+			<string>[http://wiki.secondlife.com/wiki/RC_REJECT_NONPHYSICAL RC_REJECT_NONPHYSICAL]</string>
+		<key>rcrejectphysical</key>
+			<string>[http://wiki.secondlife.com/wiki/RC_REJECT_PHYSICAL RC_REJECT_PHYSICAL]</string>
+		<key>rcrejecttypes</key>
+			<string>[http://wiki.secondlife.com/wiki/RC_REJECT_TYPES RC_REJECT_TYPES]</string>
+		<key>regionflagallowdamage</key>
+			<string>[http://wiki.secondlife.com/wiki/REGION_FLAG_ALLOW_DAMAGE REGION_FLAG_ALLOW_DAMAGE]</string>
+		<key>regionflagallowdirectteleport</key>
+			<string>[http://wiki.secondlife.com/wiki/REGION_FLAG_ALLOW_DIRECT_TELEPORT REGION_FLAG_ALLOW_DIRECT_TELEPORT]</string>
+		<key>regionflagblockfly</key>
+			<string>[http://wiki.secondlife.com/wiki/REGION_FLAG_BLOCK_FLY REGION_FLAG_BLOCK_FLY]</string>
+		<key>regionflagblockterraform</key>
+			<string>[http://wiki.secondlife.com/wiki/REGION_FLAG_BLOCK_TERRAFORM REGION_FLAG_BLOCK_TERRAFORM]</string>
+		<key>regionflagdisablecollisions</key>
+			<string>[http://wiki.secondlife.com/wiki/REGION_FLAG_DISABLE_COLLISIONS REGION_FLAG_DISABLE_COLLISIONS]</string>
+		<key>regionflagdisablephysics</key>
+			<string>[http://wiki.secondlife.com/wiki/REGION_FLAG_DISABLE_PHYSICS REGION_FLAG_DISABLE_PHYSICS]</string>
+		<key>regionflagfixedsun</key>
+			<string>[http://wiki.secondlife.com/wiki/REGION_FLAG_FIXED_SUN REGION_FLAG_FIXED_SUN]</string>
+		<key>regionflagrestrictpushobject</key>
+			<string>[http://wiki.secondlife.com/wiki/REGION_FLAG_RESTRICT_PUSHOBJECT REGION_FLAG_RESTRICT_PUSHOBJECT]</string>
+		<key>regionflagsandbox</key>
+			<string>[http://wiki.secondlife.com/wiki/REGION_FLAG_SANDBOX REGION_FLAG_SANDBOX]</string>
+		<key>remotedatachannel</key>
+			<string>[http://wiki.secondlife.com/wiki/REMOTE_DATA_CHANNEL REMOTE_DATA_CHANNEL]</string>
+		<key>remotedatareply</key>
+			<string>[http://wiki.secondlife.com/wiki/REMOTE_DATA_REPLY REMOTE_DATA_REPLY]</string>
+		<key>remotedatarequest</key>
+			<string>[http://wiki.secondlife.com/wiki/REMOTE_DATA_REQUEST REMOTE_DATA_REQUEST]</string>
+		<key>reverse</key>
+			<string>[http://wiki.secondlife.com/wiki/REVERSE REVERSE]</string>
+		<key>rotate</key>
+			<string>[http://wiki.secondlife.com/wiki/ROTATE ROTATE]</string>
+		<key>scale</key>
+			<string>[http://wiki.secondlife.com/wiki/SCALE SCALE]</string>
+		<key>scripted</key>
+			<string>[http://wiki.secondlife.com/wiki/SCRIPTED SCRIPTED]</string>
+		<key>simstatpctcharsstepped</key>
+			<string>[http://wiki.secondlife.com/wiki/SIM_STAT_PCT_CHARS_STEPPED SIM_STAT_PCT_CHARS_STEPPED]</string>
+		<key>smooth</key>
+			<string>[http://wiki.secondlife.com/wiki/SMOOTH SMOOTH]</string>
+		<key>sqrt2</key>
+			<string>[http://wiki.secondlife.com/wiki/SQRT2 SQRT2]</string>
+		<key>statusblockgrab</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_BLOCK_GRAB STATUS_BLOCK_GRAB]</string>
+		<key>statusblockgrabobject</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_BLOCK_GRAB_OBJECT STATUS_BLOCK_GRAB_OBJECT]</string>
+		<key>statusboundserror</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_BOUNDS_ERROR STATUS_BOUNDS_ERROR]</string>
+		<key>statuscastshadows</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_CAST_SHADOWS STATUS_CAST_SHADOWS]</string>
+		<key>statusdieatedge</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_DIE_AT_EDGE STATUS_DIE_AT_EDGE]</string>
+		<key>statusinternalerror</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_INTERNAL_ERROR STATUS_INTERNAL_ERROR]</string>
+		<key>statusmalformedparams</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_MALFORMED_PARAMS STATUS_MALFORMED_PARAMS]</string>
+		<key>statusnotfound</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_NOT_FOUND STATUS_NOT_FOUND]</string>
+		<key>statusnotsupported</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_NOT_SUPPORTED STATUS_NOT_SUPPORTED]</string>
+		<key>statusok</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_OK STATUS_OK]</string>
+		<key>statusphantom</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_PHANTOM STATUS_PHANTOM]</string>
+		<key>statusphysics</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_PHYSICS STATUS_PHYSICS]</string>
+		<key>statusreturnatedge</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_RETURN_AT_EDGE STATUS_RETURN_AT_EDGE]</string>
+		<key>statusrotatex</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_ROTATE_X STATUS_ROTATE_X]</string>
+		<key>statusrotatey</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_ROTATE_Y STATUS_ROTATE_Y]</string>
+		<key>statusrotatez</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_ROTATE_Z STATUS_ROTATE_Z]</string>
+		<key>statussandbox</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_SANDBOX STATUS_SANDBOX]</string>
+		<key>statustypemismatch</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_TYPE_MISMATCH STATUS_TYPE_MISMATCH]</string>
+		<key>statuswhitelistfailed</key>
+			<string>[http://wiki.secondlife.com/wiki/STATUS_WHITELIST_FAILED STATUS_WHITELIST_FAILED]</string>
+		<key>stringtrim</key>
+			<string>[http://wiki.secondlife.com/wiki/STRING_TRIM STRING_TRIM]</string>
+		<key>stringtrimhead</key>
+			<string>[http://wiki.secondlife.com/wiki/STRING_TRIM_HEAD STRING_TRIM_HEAD]</string>
+		<key>stringtrimtail</key>
+			<string>[http://wiki.secondlife.com/wiki/STRING_TRIM_TAIL STRING_TRIM_TAIL]</string>
+		<key>targetedemailobjectowner</key>
+			<string>[http://wiki.secondlife.com/wiki/TARGETED_EMAIL_OBJECT_OWNER TARGETED_EMAIL_OBJECT_OWNER]</string>
+		<key>texturedefault</key>
+			<string>[http://wiki.secondlife.com/wiki/TEXTURE_DEFAULT TEXTURE_DEFAULT]</string>
+		<key>textureblank</key>
+			<string>[http://wiki.secondlife.com/wiki/TEXTURE_BLANK TEXTURE_BLANK]</string>
+		<key>texturemedia</key>
+			<string>[http://wiki.secondlife.com/wiki/TEXTURE_MEDIA TEXTURE_MEDIA]</string>
+		<key>textureplywood</key>
+			<string>[http://wiki.secondlife.com/wiki/TEXTURE_PLYWOOD TEXTURE_PLYWOOD]</string>
+		<key>texturetransparent</key>
+			<string>[http://wiki.secondlife.com/wiki/TEXTURE_TRANSPARENT TEXTURE_TRANSPARENT]</string>
+		<key>touchinvalidface</key>
+			<string>[http://wiki.secondlife.com/wiki/TOUCH_INVALID_FACE TOUCH_INVALID_FACE]</string>
+		<key>touchinvalidtexcoord</key>
+			<string>[http://wiki.secondlife.com/wiki/TOUCH_INVALID_TEXCOORD TOUCH_INVALID_TEXCOORD]</string>
+		<key>touchinvalidvector</key>
+			<string>[http://wiki.secondlife.com/wiki/TOUCH_INVALID_VECTOR TOUCH_INVALID_VECTOR]</string>
+		<key>traversaltype</key>
+			<string>[http://wiki.secondlife.com/wiki/TRAVERSAL_TYPE TRAVERSAL_TYPE]</string>
+		<key>true</key>
+			<string>[http://wiki.secondlife.com/wiki/TRUE TRUE]</string>
+		<key>twopi</key>
+			<string>[http://wiki.secondlife.com/wiki/TWO_PI TWO_PI]</string>
+		<key>typefloat</key>
+			<string>[http://wiki.secondlife.com/wiki/TYPE_FLOAT TYPE_FLOAT]</string>
+		<key>typeinteger</key>
+			<string>[http://wiki.secondlife.com/wiki/TYPE_INTEGER TYPE_INTEGER]</string>
+		<key>typeinvalid</key>
+			<string>[http://wiki.secondlife.com/wiki/TYPE_INVALID TYPE_INVALID]</string>
+		<key>typekey</key>
+			<string>[http://wiki.secondlife.com/wiki/TYPE_KEY TYPE_KEY]</string>
+		<key>typerotation</key>
+			<string>[http://wiki.secondlife.com/wiki/TYPE_ROTATION TYPE_ROTATION]</string>
+		<key>typestring</key>
+			<string>[http://wiki.secondlife.com/wiki/TYPE_STRING TYPE_STRING]</string>
+		<key>typevector</key>
+			<string>[http://wiki.secondlife.com/wiki/TYPE_VECTOR TYPE_VECTOR]</string>
+		<key>urlrequestdenied</key>
+			<string>[http://wiki.secondlife.com/wiki/URL_REQUEST_DENIED URL_REQUEST_DENIED]</string>
+		<key>urlrequestgranted</key>
+			<string>[http://wiki.secondlife.com/wiki/URL_REQUEST_GRANTED URL_REQUEST_GRANTED]</string>
+		<key>vehicleflagnoflyup</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_FLAG_NO_FLY_UP VEHICLE_FLAG_NO_FLY_UP]</string>
+		<key>vehicleangulardeflectionefficiency</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_ANGULAR_DEFLECTION_EFFICIENCY VEHICLE_ANGULAR_DEFLECTION_EFFICIENCY]</string>
+		<key>vehicleangulardeflectiontimescale</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_ANGULAR_DEFLECTION_TIMESCALE VEHICLE_ANGULAR_DEFLECTION_TIMESCALE]</string>
+		<key>vehicleangularfrictiontimescale</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_ANGULAR_FRICTION_TIMESCALE VEHICLE_ANGULAR_FRICTION_TIMESCALE]</string>
+		<key>vehicleangularmotordecaytimescale</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE]</string>
+		<key>vehicleangularmotordirection</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_ANGULAR_MOTOR_DIRECTION VEHICLE_ANGULAR_MOTOR_DIRECTION]</string>
+		<key>vehicleangularmotortimescale</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_ANGULAR_MOTOR_TIMESCALE VEHICLE_ANGULAR_MOTOR_TIMESCALE]</string>
+		<key>vehiclebankingefficiency</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_BANKING_EFFICIENCY VEHICLE_BANKING_EFFICIENCY]</string>
+		<key>vehiclebankingmix</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_BANKING_MIX VEHICLE_BANKING_MIX]</string>
+		<key>vehiclebankingtimescale</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_BANKING_TIMESCALE VEHICLE_BANKING_TIMESCALE]</string>
+		<key>vehiclebuoyancy</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_BUOYANCY VEHICLE_BUOYANCY]</string>
+		<key>vehicleflagcameradecoupled</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_FLAG_CAMERA_DECOUPLED VEHICLE_FLAG_CAMERA_DECOUPLED]</string>
+		<key>vehicleflaghoverglobalheight</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_FLAG_HOVER_GLOBAL_HEIGHT VEHICLE_FLAG_HOVER_GLOBAL_HEIGHT]</string>
+		<key>vehicleflaghoverterrainonly</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_FLAG_HOVER_TERRAIN_ONLY VEHICLE_FLAG_HOVER_TERRAIN_ONLY]</string>
+		<key>vehicleflaghoveruponly</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_FLAG_HOVER_UP_ONLY VEHICLE_FLAG_HOVER_UP_ONLY]</string>
+		<key>vehicleflaghoverwateronly</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_FLAG_HOVER_WATER_ONLY VEHICLE_FLAG_HOVER_WATER_ONLY]</string>
+		<key>vehicleflaglimitmotorup</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_FLAG_LIMIT_MOTOR_UP VEHICLE_FLAG_LIMIT_MOTOR_UP]</string>
+		<key>vehicleflaglimitrollonly</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_FLAG_LIMIT_ROLL_ONLY VEHICLE_FLAG_LIMIT_ROLL_ONLY]</string>
+		<key>vehicleflagmouselookbank</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_FLAG_MOUSELOOK_BANK VEHICLE_FLAG_MOUSELOOK_BANK]</string>
+		<key>vehicleflagmouselooksteer</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_FLAG_MOUSELOOK_STEER VEHICLE_FLAG_MOUSELOOK_STEER]</string>
+		<key>vehicleflagnodeflectionup</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_FLAG_NO_DEFLECTION_UP VEHICLE_FLAG_NO_DEFLECTION_UP]</string>
+		<key>vehiclehoverefficiency</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_HOVER_EFFICIENCY VEHICLE_HOVER_EFFICIENCY]</string>
+		<key>vehiclehoverheight</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_HOVER_HEIGHT VEHICLE_HOVER_HEIGHT]</string>
+		<key>vehiclehovertimescale</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_HOVER_TIMESCALE VEHICLE_HOVER_TIMESCALE]</string>
+		<key>vehiclelineardeflectionefficiency</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_LINEAR_DEFLECTION_EFFICIENCY VEHICLE_LINEAR_DEFLECTION_EFFICIENCY]</string>
+		<key>vehiclelineardeflectiontimescale</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_LINEAR_DEFLECTION_TIMESCALE VEHICLE_LINEAR_DEFLECTION_TIMESCALE]</string>
+		<key>vehiclelinearfrictiontimescale</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_LINEAR_FRICTION_TIMESCALE VEHICLE_LINEAR_FRICTION_TIMESCALE]</string>
+		<key>vehiclelinearmotordecaytimescale</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_LINEAR_MOTOR_DECAY_TIMESCALE VEHICLE_LINEAR_MOTOR_DECAY_TIMESCALE]</string>
+		<key>vehiclelinearmotordirection</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_LINEAR_MOTOR_DIRECTION VEHICLE_LINEAR_MOTOR_DIRECTION]</string>
+		<key>vehiclelinearmotoroffset</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_LINEAR_MOTOR_OFFSET VEHICLE_LINEAR_MOTOR_OFFSET]</string>
+		<key>vehiclelinearmotortimescale</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_LINEAR_MOTOR_TIMESCALE VEHICLE_LINEAR_MOTOR_TIMESCALE]</string>
+		<key>vehiclereferenceframe</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_REFERENCE_FRAME VEHICLE_REFERENCE_FRAME]</string>
+		<key>vehicletypeairplane</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_TYPE_AIRPLANE VEHICLE_TYPE_AIRPLANE]</string>
+		<key>vehicletypeballoon</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_TYPE_BALLOON VEHICLE_TYPE_BALLOON]</string>
+		<key>vehicletypeboat</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_TYPE_BOAT VEHICLE_TYPE_BOAT]</string>
+		<key>vehicletypecar</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_TYPE_CAR VEHICLE_TYPE_CAR]</string>
+		<key>vehicletypenone</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_TYPE_NONE VEHICLE_TYPE_NONE]</string>
+		<key>vehicletypesled</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_TYPE_SLED VEHICLE_TYPE_SLED]</string>
+		<key>vehicleverticalattractionefficiency</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_VERTICAL_ATTRACTION_EFFICIENCY VEHICLE_VERTICAL_ATTRACTION_EFFICIENCY]</string>
+		<key>vehicleverticalattractiontimescale</key>
+			<string>[http://wiki.secondlife.com/wiki/VEHICLE_VERTICAL_ATTRACTION_TIMESCALE VEHICLE_VERTICAL_ATTRACTION_TIMESCALE]</string>
+		<key>vertical</key>
+			<string>[http://wiki.secondlife.com/wiki/VERTICAL VERTICAL]</string>
+		<key>zerorotation</key>
+			<string>[http://wiki.secondlife.com/wiki/ZERO_ROTATION ZERO_ROTATION]</string>
+		<key>zerovector</key>
+			<string>[http://wiki.secondlife.com/wiki/ZERO_VECTOR ZERO_VECTOR]</string>
+        </map>
+    </map>
+</llsd>

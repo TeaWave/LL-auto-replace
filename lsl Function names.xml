@@ -1,0 +1,927 @@
+<llsd>
+    <map>
+    <key>name</key>
+        <string>Lsl functions</string>
+    <key>replacements</key>
+        <map>
+		<key>llabs</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAbs LlAbs]</string>
+		<key>llacos</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAcos LlAcos]</string>
+		<key>lladdtolandbanlist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAddToLandBanList LlAddToLandBanList]</string>
+		<key>lladdtolandpasslist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAddToLandPassList LlAddToLandPassList]</string>
+		<key>lladjustsoundvolume</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAdjustSoundVolume LlAdjustSoundVolume]</string>
+		<key>llagentinexperience</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAgentInExperience LlAgentInExperience]</string>
+		<key>llallowinventorydrop</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAllowInventoryDrop LlAllowInventoryDrop]</string>
+		<key>llanglebetween</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAngleBetween LlAngleBetween]</string>
+		<key>llapplyimpulse</key>
+			<string>[http://wiki.secondlife.com/wiki/LlApplyImpulse LlApplyImpulse]</string>
+		<key>llapplyrotationalimpulse</key>
+			<string>[http://wiki.secondlife.com/wiki/LlApplyRotationalImpulse LlApplyRotationalImpulse]</string>
+		<key>llasin</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAsin LlAsin]</string>
+		<key>llatan2</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAtan2 LlAtan2]</string>
+		<key>llattachtoavatar</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAttachToAvatar LlAttachToAvatar]</string>
+		<key>llattachtoavatartemp</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAttachToAvatarTemp LlAttachToAvatarTemp]</string>
+		<key>llavataronlinksittarget</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAvatarOnLinkSitTarget LlAvatarOnLinkSitTarget]</string>
+		<key>llavataronsittarget</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAvatarOnSitTarget LlAvatarOnSitTarget]</string>
+		<key>llaxes2rot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAxes2Rot LlAxes2Rot]</string>
+		<key>llaxisangle2rot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlAxisAngle2Rot LlAxisAngle2Rot]</string>
+		<key>llbase64tointeger</key>
+			<string>[http://wiki.secondlife.com/wiki/LlBase64ToInteger LlBase64ToInteger]</string>
+		<key>llbase64tostring</key>
+			<string>[http://wiki.secondlife.com/wiki/LlBase64ToString LlBase64ToString]</string>
+		<key>llbreakalllinks</key>
+			<string>[http://wiki.secondlife.com/wiki/LlBreakAllLinks LlBreakAllLinks]</string>
+		<key>llbreaklink</key>
+			<string>[http://wiki.secondlife.com/wiki/LlBreakLink LlBreakLink]</string>
+		<key>llcastray</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCastRay LlCastRay]</string>
+		<key>llceil</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCeil LlCeil]</string>
+		<key>llchar</key>
+			<string>[http://wiki.secondlife.com/wiki/LlChar LlChar]</string>
+		<key>llclearcameraparams</key>
+			<string>[http://wiki.secondlife.com/wiki/LlClearCameraParams LlClearCameraParams]</string>
+		<key>llclearlinkmedia</key>
+			<string>[http://wiki.secondlife.com/wiki/LlClearLinkMedia LlClearLinkMedia]</string>
+		<key>llclearprimmedia</key>
+			<string>[http://wiki.secondlife.com/wiki/LlClearPrimMedia LlClearPrimMedia]</string>
+		<key>llcloseremotedatachannel</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCloseRemoteDataChannel LlCloseRemoteDataChannel]</string>
+		<key>llcloud</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCloud LlCloud]</string>
+		<key>llcollisionfilter</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCollisionFilter LlCollisionFilter]</string>
+		<key>llcollisionsound</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCollisionSound LlCollisionSound]</string>
+		<key>llcollisionsprite</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCollisionSprite LlCollisionSprite]</string>
+		<key>llcos</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCos LlCos]</string>
+		<key>llcreatecharacter</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCreateCharacter LlCreateCharacter]</string>
+		<key>llcreatekeyvalue</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCreateKeyValue LlCreateKeyValue]</string>
+		<key>llcreatelink</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCreateLink LlCreateLink]</string>
+		<key>llcsv2list</key>
+			<string>[http://wiki.secondlife.com/wiki/LlCSV2List LlCSV2List]</string>
+		<key>lldatasizekeyvalue</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDataSizeKeyValue LlDataSizeKeyValue]</string>
+		<key>lldeletecharacter</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDeleteCharacter LlDeleteCharacter]</string>
+		<key>lldeletekeyvalue</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDeleteKeyValue LlDeleteKeyValue]</string>
+		<key>lldeletesublist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDeleteSubList LlDeleteSubList]</string>
+		<key>lldeletesubstring</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDeleteSubString LlDeleteSubString]</string>
+		<key>lldetachfromavatar</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetachFromAvatar LlDetachFromAvatar]</string>
+		<key>lldetectedgrab</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedGrab LlDetectedGrab]</string>
+		<key>lldetectedgroup</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedGroup LlDetectedGroup]</string>
+		<key>lldetectedkey</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedKey LlDetectedKey]</string>
+		<key>lldetectedlinknumber</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedLinkNumber LlDetectedLinkNumber]</string>
+		<key>lldetectedname</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedName LlDetectedName]</string>
+		<key>lldetectedowner</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedOwner LlDetectedOwner]</string>
+		<key>lldetectedpos</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedPos LlDetectedPos]</string>
+		<key>lldetectedrot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedRot LlDetectedRot]</string>
+		<key>lldetectedtouchbinormal</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedTouchBinormal LlDetectedTouchBinormal]</string>
+		<key>lldetectedtouchface</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedTouchFace LlDetectedTouchFace]</string>
+		<key>lldetectedtouchnormal</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedTouchNormal LlDetectedTouchNormal]</string>
+		<key>lldetectedtouchpos</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedTouchPos LlDetectedTouchPos]</string>
+		<key>lldetectedtouchst</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedTouchST LlDetectedTouchST]</string>
+		<key>lldetectedtouchuv</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedTouchUV LlDetectedTouchUV]</string>
+		<key>lldetectedtype</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedType LlDetectedType]</string>
+		<key>lldetectedvel</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDetectedVel LlDetectedVel]</string>
+		<key>lldialog</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDialog LlDialog]</string>
+		<key>lldie</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDie LlDie]</string>
+		<key>lldumplist2string</key>
+			<string>[http://wiki.secondlife.com/wiki/LlDumpList2String LlDumpList2String]</string>
+		<key>lledgeofworld</key>
+			<string>[http://wiki.secondlife.com/wiki/LlEdgeOfWorld LlEdgeOfWorld]</string>
+		<key>llejectfromland</key>
+			<string>[http://wiki.secondlife.com/wiki/LlEjectFromLand LlEjectFromLand]</string>
+		<key>llemail</key>
+			<string>[http://wiki.secondlife.com/wiki/LlEmail LlEmail]</string>
+		<key>llescapeurl</key>
+			<string>[http://wiki.secondlife.com/wiki/LlEscapeURL LlEscapeURL]</string>
+		<key>lleuler2rot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlEuler2Rot LlEuler2Rot]</string>
+		<key>llevade</key>
+			<string>[http://wiki.secondlife.com/wiki/LlEvade LlEvade]</string>
+		<key>llexeccharactercmd</key>
+			<string>[http://wiki.secondlife.com/wiki/LlExecCharacterCmd LlExecCharacterCmd]</string>
+		<key>llfabs</key>
+			<string>[http://wiki.secondlife.com/wiki/LlFabs LlFabs]</string>
+		<key>llfleefrom</key>
+			<string>[http://wiki.secondlife.com/wiki/LlFleeFrom LlFleeFrom]</string>
+		<key>llfloor</key>
+			<string>[http://wiki.secondlife.com/wiki/LlFloor LlFloor]</string>
+		<key>llforcemouselook</key>
+			<string>[http://wiki.secondlife.com/wiki/LlForceMouselook LlForceMouselook]</string>
+		<key>llfrand</key>
+			<string>[http://wiki.secondlife.com/wiki/LlFrand LlFrand]</string>
+		<key>llgeneratekey</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGenerateKey LlGenerateKey]</string>
+		<key>llgetaccel</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAccel LlGetAccel]</string>
+		<key>llgetagentinfo</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAgentInfo LlGetAgentInfo]</string>
+		<key>llgetagentlanguage</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAgentLanguage LlGetAgentLanguage]</string>
+		<key>llgetagentlist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAgentList LlGetAgentList]</string>
+		<key>llgetagentsize</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAgentSize LlGetAgentSize]</string>
+		<key>llgetalpha</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAlpha LlGetAlpha]</string>
+		<key>llgetandresettime</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAndResetTime LlGetAndResetTime]</string>
+		<key>llgetanimation</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAnimation LlGetAnimation]</string>
+		<key>llgetanimationlist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAnimationList LlGetAnimationList]</string>
+		<key>llgetanimationoverride</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAnimationOverride LlGetAnimationOverride]</string>
+		<key>llgetattached</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAttached LlGetAttached]</string>
+		<key>llgetattachedlist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetAttachedList LlGetAttachedList]</string>
+		<key>llgetboundingbox</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetBoundingBox LlGetBoundingBox]</string>
+		<key>llgetcamerapos</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetCameraPos LlGetCameraPos]</string>
+		<key>llgetcamerarot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetCameraRot LlGetCameraRot]</string>
+		<key>llgetcenterofmass</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetCenterOfMass LlGetCenterOfMass]</string>
+		<key>llgetclosestnavpoint</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetClosestNavPoint LlGetClosestNavPoint]</string>
+		<key>llgetcolor</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetColor LlGetColor]</string>
+		<key>llgetcreator</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetCreator LlGetCreator]</string>
+		<key>llgetdate</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetDate LlGetDate]</string>
+		<key>llgetdaylength</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetDayLength LlGetDayLength]</string>
+		<key>llgetdayoffset</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetDayOffset LlGetDayOffset]</string>
+		<key>llgetdisplayname</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetDisplayName LlGetDisplayName]</string>
+		<key>llgetenergy</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetEnergy LlGetEnergy]</string>
+		<key>llgetenv</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetEnv LlGetEnv]</string>
+		<key>llgetenvironment</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetEnvironment LlGetEnvironment]</string>
+		<key>llgetexperiencedetails</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetExperienceDetails LlGetExperienceDetails]</string>
+		<key>llgetexperienceerrormessage</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetExperienceErrorMessage LlGetExperienceErrorMessage]</string>
+		<key>llgetforce</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetForce LlGetForce]</string>
+		<key>llgetfreememory</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetFreeMemory LlGetFreeMemory]</string>
+		<key>llgetfreeurls</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetFreeURLs LlGetFreeURLs]</string>
+		<key>llgetgeometriccenter</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetGeometricCenter LlGetGeometricCenter]</string>
+		<key>llgetgmtclock</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetGMTclock LlGetGMTclock]</string>
+		<key>llgethttpheader</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetHTTPHeader LlGetHTTPHeader]</string>
+		<key>llgetinventoryacquiretime</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetInventoryAcquireTime LlGetInventoryAcquireTime]</string>
+		<key>llgetinventorycreator</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetInventoryCreator LlGetInventoryCreator]</string>
+		<key>llgetinventorykey</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetInventoryKey LlGetInventoryKey]</string>
+		<key>llgetinventoryname</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetInventoryName LlGetInventoryName]</string>
+		<key>llgetinventorynumber</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetInventoryNumber LlGetInventoryNumber]</string>
+		<key>llgetinventorypermmask</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetInventoryPermMask LlGetInventoryPermMask]</string>
+		<key>llgetinventorytype</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetInventoryType LlGetInventoryType]</string>
+		<key>llgetkey</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetKey LlGetKey]</string>
+		<key>llgetlandownerat</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetLandOwnerAt LlGetLandOwnerAt]</string>
+		<key>llgetlinkkey</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetLinkKey LlGetLinkKey]</string>
+		<key>llgetlinkmedia</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetLinkMedia LlGetLinkMedia]</string>
+		<key>llgetlinkname</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetLinkName LlGetLinkName]</string>
+		<key>llgetlinknumber</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetLinkNumber LlGetLinkNumber]</string>
+		<key>llgetlinknumberofsides</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetLinkNumberOfSides LlGetLinkNumberOfSides]</string>
+		<key>llgetlinkprimitiveparams</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetLinkPrimitiveParams LlGetLinkPrimitiveParams]</string>
+		<key>llgetlistentrytype</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetListEntryType LlGetListEntryType]</string>
+		<key>llgetlistlength</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetListLength LlGetListLength]</string>
+		<key>llgetlocalpos</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetLocalPos LlGetLocalPos]</string>
+		<key>llgetlocalrot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetLocalRot LlGetLocalRot]</string>
+		<key>llgetmass</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetMass LlGetMass]</string>
+		<key>llgetmassmks</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetMassMKS LlGetMassMKS]</string>
+		<key>llgetmaxscalefactor</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetMaxScaleFactor LlGetMaxScaleFactor]</string>
+		<key>llgetmemorylimit</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetMemoryLimit LlGetMemoryLimit]</string>
+		<key>llgetminscalefactor</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetMinScaleFactor LlGetMinScaleFactor]</string>
+		<key>llgetmoondirection</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetMoonDirection LlGetMoonDirection]</string>
+		<key>llgetmoonrotation</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetMoonRotation LlGetMoonRotation]</string>
+		<key>llgetnextemail</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetNextEmail LlGetNextEmail]</string>
+		<key>llgetnotecardline</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetNotecardLine LlGetNotecardLine]</string>
+		<key>llgetnumberofnotecardlines</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetNumberOfNotecardLines LlGetNumberOfNotecardLines]</string>
+		<key>llgetnumberofprims</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetNumberOfPrims LlGetNumberOfPrims]</string>
+		<key>llgetnumberofsides</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetNumberOfSides LlGetNumberOfSides]</string>
+		<key>llgetobjectanimationnames</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetObjectAnimationNames LlGetObjectAnimationNames]</string>
+		<key>llgetobjectdesc</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetObjectDesc LlGetObjectDesc]</string>
+		<key>llgetobjectdetails</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetObjectDetails LlGetObjectDetails]</string>
+		<key>llgetobjectmass</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetObjectMass LlGetObjectMass]</string>
+		<key>llgetobjectname</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetObjectName LlGetObjectName]</string>
+		<key>llgetobjectpermmask</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetObjectPermMask LlGetObjectPermMask]</string>
+		<key>llgetobjectprimcount</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetObjectPrimCount LlGetObjectPrimCount]</string>
+		<key>llgetomega</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetOmega LlGetOmega]</string>
+		<key>llgetowner</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetOwner LlGetOwner]</string>
+		<key>llgetownerkey</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetOwnerKey LlGetOwnerKey]</string>
+		<key>llgetparceldetails</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetParcelDetails LlGetParcelDetails]</string>
+		<key>llgetparcelflags</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetParcelFlags LlGetParcelFlags]</string>
+		<key>llgetparcelmaxprims</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetParcelMaxPrims LlGetParcelMaxPrims]</string>
+		<key>llgetparcelmusicurl</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetParcelMusicURL LlGetParcelMusicURL]</string>
+		<key>llgetparcelprimcount</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetParcelPrimCount LlGetParcelPrimCount]</string>
+		<key>llgetparcelprimowners</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetParcelPrimOwners LlGetParcelPrimOwners]</string>
+		<key>llgetpermissions</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetPermissions LlGetPermissions]</string>
+		<key>llgetpermissionskey</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetPermissionsKey LlGetPermissionsKey]</string>
+		<key>llgetphysicsmaterial</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetPhysicsMaterial LlGetPhysicsMaterial]</string>
+		<key>llgetpos</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetPos LlGetPos]</string>
+		<key>llgetprimitiveparams</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetPrimitiveParams LlGetPrimitiveParams]</string>
+		<key>llgetprimmediaparams</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetPrimMediaParams LlGetPrimMediaParams]</string>
+		<key>llgetregionagentcount</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionAgentCount LlGetRegionAgentCount]</string>
+		<key>llgetregioncorner</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionCorner LlGetRegionCorner]</string>
+		<key>llgetregiondaylength</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionDayLength LlGetRegionDayLength]</string>
+		<key>llgetregiondayoffset</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionDayOffset LlGetRegionDayOffset]</string>
+		<key>llgetregionflags</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionFlags LlGetRegionFlags]</string>
+		<key>llgetregionfps</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionFPS LlGetRegionFPS]</string>
+		<key>llgetregionmoondirection</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionMoonDirection LlGetRegionMoonDirection]</string>
+		<key>llgetregionmoonrotation</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionMoonRotation LlGetRegionMoonRotation]</string>
+		<key>llgetregionname</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionName LlGetRegionName]</string>
+		<key>llgetregionsundirection</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionSunDirection LlGetRegionSunDirection]</string>
+		<key>llgetregionsunrotation</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionSunRotation LlGetRegionSunRotation]</string>
+		<key>llgetregiontimedilation</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRegionTimeDilation LlGetRegionTimeDilation]</string>
+		<key>llgetrootposition</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRootPosition LlGetRootPosition]</string>
+		<key>llgetrootrotation</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRootRotation LlGetRootRotation]</string>
+		<key>llgetrot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetRot LlGetRot]</string>
+		<key>llgetscale</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetScale LlGetScale]</string>
+		<key>llgetscriptname</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetScriptName LlGetScriptName]</string>
+		<key>llgetscriptstate</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetScriptState LlGetScriptState]</string>
+		<key>llgetsimstats</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetSimStats LlGetSimStats]</string>
+		<key>llgetsimulatorhostname</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetSimulatorHostname LlGetSimulatorHostname]</string>
+		<key>llgetspmaxmemory</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetSPMaxMemory LlGetSPMaxMemory]</string>
+		<key>llgetstartparameter</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetStartParameter LlGetStartParameter]</string>
+		<key>llgetstaticpath</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetStaticPath LlGetStaticPath]</string>
+		<key>llgetstatus</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetStatus LlGetStatus]</string>
+		<key>llgetsubstring</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetSubString LlGetSubString]</string>
+		<key>llgetsundirection</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetSunDirection LlGetSunDirection]</string>
+		<key>llgetsunrotation</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetSunRotation LlGetSunRotation]</string>
+		<key>llgettexture</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetTexture LlGetTexture]</string>
+		<key>llgettextureoffset</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetTextureOffset LlGetTextureOffset]</string>
+		<key>llgettexturerot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetTextureRot LlGetTextureRot]</string>
+		<key>llgettexturescale</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetTextureScale LlGetTextureScale]</string>
+		<key>llgettime</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetTime LlGetTime]</string>
+		<key>llgettimeofday</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetTimeOfDay LlGetTimeOfDay]</string>
+		<key>llgettimestamp</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetTimestamp LlGetTimestamp]</string>
+		<key>llgettorque</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetTorque LlGetTorque]</string>
+		<key>llgetunixtime</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetUnixTime LlGetUnixTime]</string>
+		<key>llgetusedmemory</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetUsedMemory LlGetUsedMemory]</string>
+		<key>llgetusername</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetUsername LlGetUsername]</string>
+		<key>llgetvel</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetVel LlGetVel]</string>
+		<key>llgetwallclock</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGetWallclock LlGetWallclock]</string>
+		<key>llgiveinventory</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGiveInventory LlGiveInventory]</string>
+		<key>llgiveinventorylist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGiveInventoryList LlGiveInventoryList]</string>
+		<key>llgivemoney</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGiveMoney LlGiveMoney]</string>
+		<key>llgodlikerezobject</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGodLikeRezObject LlGodLikeRezObject]</string>
+		<key>llground</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGround LlGround]</string>
+		<key>llgroundcontour</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGroundContour LlGroundContour]</string>
+		<key>llgroundnormal</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGroundNormal LlGroundNormal]</string>
+		<key>llgroundrepel</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGroundRepel LlGroundRepel]</string>
+		<key>llgroundslope</key>
+			<string>[http://wiki.secondlife.com/wiki/LlGroundSlope LlGroundSlope]</string>
+		<key>llhash</key>
+			<string>[http://wiki.secondlife.com/wiki/LlHash LlHash]</string>
+		<key>llhttprequest</key>
+			<string>[http://wiki.secondlife.com/wiki/LlHTTPRequest LlHTTPRequest]</string>
+		<key>llhttpresponse</key>
+			<string>[http://wiki.secondlife.com/wiki/LlHTTPResponse LlHTTPResponse]</string>
+		<key>llinsertstring</key>
+			<string>[http://wiki.secondlife.com/wiki/LlInsertString LlInsertString]</string>
+		<key>llinstantmessage</key>
+			<string>[http://wiki.secondlife.com/wiki/LlInstantMessage LlInstantMessage]</string>
+		<key>llintegertobase64</key>
+			<string>[http://wiki.secondlife.com/wiki/LlIntegerToBase64 LlIntegerToBase64]</string>
+		<key>lljson2list</key>
+			<string>[http://wiki.secondlife.com/wiki/LlJson2List LlJson2List]</string>
+		<key>lljsongetvalue</key>
+			<string>[http://wiki.secondlife.com/wiki/LlJsonGetValue LlJsonGetValue]</string>
+		<key>lljsonsetvalue</key>
+			<string>[http://wiki.secondlife.com/wiki/LlJsonSetValue LlJsonSetValue]</string>
+		<key>lljsonvaluetype</key>
+			<string>[http://wiki.secondlife.com/wiki/LlJsonValueType LlJsonValueType]</string>
+		<key>llkey2name</key>
+			<string>[http://wiki.secondlife.com/wiki/LlKey2Name LlKey2Name]</string>
+		<key>llkeycountkeyvalue</key>
+			<string>[http://wiki.secondlife.com/wiki/LlKeyCountKeyValue LlKeyCountKeyValue]</string>
+		<key>llkeyskeyvalue</key>
+			<string>[http://wiki.secondlife.com/wiki/LlKeysKeyValue LlKeysKeyValue]</string>
+		<key>lllinear2srgb</key>
+			<string>[http://wiki.secondlife.com/wiki/LlLinear2sRGB LlLinear2sRGB]</string>
+		<key>lllinkparticlesystem</key>
+			<string>[http://wiki.secondlife.com/wiki/LlLinkParticleSystem LlLinkParticleSystem]</string>
+		<key>lllinksittarget</key>
+			<string>[http://wiki.secondlife.com/wiki/LlLinkSitTarget LlLinkSitTarget]</string>
+		<key>lllist2csv</key>
+			<string>[http://wiki.secondlife.com/wiki/LlList2CSV LlList2CSV]</string>
+		<key>lllist2float</key>
+			<string>[http://wiki.secondlife.com/wiki/LlList2Float LlList2Float]</string>
+		<key>lllist2integer</key>
+			<string>[http://wiki.secondlife.com/wiki/LlList2Integer LlList2Integer]</string>
+		<key>lllist2json</key>
+			<string>[http://wiki.secondlife.com/wiki/LlList2Json LlList2Json]</string>
+		<key>lllist2key</key>
+			<string>[http://wiki.secondlife.com/wiki/LlList2Key LlList2Key]</string>
+		<key>lllist2list</key>
+			<string>[http://wiki.secondlife.com/wiki/LlList2List LlList2List]</string>
+		<key>lllist2liststrided</key>
+			<string>[http://wiki.secondlife.com/wiki/LlList2ListStrided LlList2ListStrided]</string>
+		<key>lllist2rot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlList2Rot LlList2Rot]</string>
+		<key>lllist2string</key>
+			<string>[http://wiki.secondlife.com/wiki/LlList2String LlList2String]</string>
+		<key>lllist2vector</key>
+			<string>[http://wiki.secondlife.com/wiki/LlList2Vector LlList2Vector]</string>
+		<key>lllisten</key>
+			<string>[http://wiki.secondlife.com/wiki/LlListen LlListen]</string>
+		<key>lllistencontrol</key>
+			<string>[http://wiki.secondlife.com/wiki/LlListenControl LlListenControl]</string>
+		<key>lllistenremove</key>
+			<string>[http://wiki.secondlife.com/wiki/LlListenRemove LlListenRemove]</string>
+		<key>lllistfindlist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlListFindList LlListFindList]</string>
+		<key>lllistinsertlist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlListInsertList LlListInsertList]</string>
+		<key>lllistrandomize</key>
+			<string>[http://wiki.secondlife.com/wiki/LlListRandomize LlListRandomize]</string>
+		<key>lllistreplacelist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlListReplaceList LlListReplaceList]</string>
+		<key>lllistsort</key>
+			<string>[http://wiki.secondlife.com/wiki/LlListSort LlListSort]</string>
+		<key>llliststatistics</key>
+			<string>[http://wiki.secondlife.com/wiki/LlListStatistics LlListStatistics]</string>
+		<key>llloadurl</key>
+			<string>[http://wiki.secondlife.com/wiki/LlLoadURL LlLoadURL]</string>
+		<key>lllog</key>
+			<string>[http://wiki.secondlife.com/wiki/LlLog LlLog]</string>
+		<key>lllog10</key>
+			<string>[http://wiki.secondlife.com/wiki/LlLog10 LlLog10]</string>
+		<key>lllookat</key>
+			<string>[http://wiki.secondlife.com/wiki/LlLookAt LlLookAt]</string>
+		<key>llloopsound</key>
+			<string>[http://wiki.secondlife.com/wiki/LlLoopSound LlLoopSound]</string>
+		<key>llloopsoundmaster</key>
+			<string>[http://wiki.secondlife.com/wiki/LlLoopSoundMaster LlLoopSoundMaster]</string>
+		<key>llloopsoundslave</key>
+			<string>[http://wiki.secondlife.com/wiki/LlLoopSoundSlave LlLoopSoundSlave]</string>
+		<key>llmakeexplosion</key>
+			<string>[http://wiki.secondlife.com/wiki/LlMakeExplosion LlMakeExplosion]</string>
+		<key>llmakefire</key>
+			<string>[http://wiki.secondlife.com/wiki/LlMakeFire LlMakeFire]</string>
+		<key>llmakefountain</key>
+			<string>[http://wiki.secondlife.com/wiki/LlMakeFountain LlMakeFountain]</string>
+		<key>llmakesmoke</key>
+			<string>[http://wiki.secondlife.com/wiki/LlMakeSmoke LlMakeSmoke]</string>
+		<key>llmanageestateaccess</key>
+			<string>[http://wiki.secondlife.com/wiki/LlManageEstateAccess LlManageEstateAccess]</string>
+		<key>llmapdestination</key>
+			<string>[http://wiki.secondlife.com/wiki/LlMapDestination LlMapDestination]</string>
+		<key>llmd5string</key>
+			<string>[http://wiki.secondlife.com/wiki/LlMD5String LlMD5String]</string>
+		<key>llmessagelinked</key>
+			<string>[http://wiki.secondlife.com/wiki/LlMessageLinked LlMessageLinked]</string>
+		<key>llmineventdelay</key>
+			<string>[http://wiki.secondlife.com/wiki/LlMinEventDelay LlMinEventDelay]</string>
+		<key>llmodifyland</key>
+			<string>[http://wiki.secondlife.com/wiki/LlModifyLand LlModifyLand]</string>
+		<key>llmodpow</key>
+			<string>[http://wiki.secondlife.com/wiki/LlModPow LlModPow]</string>
+		<key>llmovetotarget</key>
+			<string>[http://wiki.secondlife.com/wiki/LlMoveToTarget LlMoveToTarget]</string>
+		<key>llname2key</key>
+			<string>[http://wiki.secondlife.com/wiki/LlName2Key LlName2Key]</string>
+		<key>llnavigateto</key>
+			<string>[http://wiki.secondlife.com/wiki/LlNavigateTo LlNavigateTo]</string>
+		<key>lloffsettexture</key>
+			<string>[http://wiki.secondlife.com/wiki/LlOffsetTexture LlOffsetTexture]</string>
+		<key>llopenfloater</key>
+			<string>[http://wiki.secondlife.com/wiki/LlOpenFloater LlOpenFloater]</string>
+		<key>llopenremotedatachannel</key>
+			<string>[http://wiki.secondlife.com/wiki/LlOpenRemoteDataChannel LlOpenRemoteDataChannel]</string>
+		<key>llord</key>
+			<string>[http://wiki.secondlife.com/wiki/LlOrd LlOrd]</string>
+		<key>llovermyland</key>
+			<string>[http://wiki.secondlife.com/wiki/LlOverMyLand LlOverMyLand]</string>
+		<key>llownersay</key>
+			<string>[http://wiki.secondlife.com/wiki/LlOwnerSay LlOwnerSay]</string>
+		<key>llparcelmediacommandlist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlParcelMediaCommandList LlParcelMediaCommandList]</string>
+		<key>llparcelmediaquery</key>
+			<string>[http://wiki.secondlife.com/wiki/LlParcelMediaQuery LlParcelMediaQuery]</string>
+		<key>llparsestring2list</key>
+			<string>[http://wiki.secondlife.com/wiki/LlParseString2List LlParseString2List]</string>
+		<key>llparsestringkeepnulls</key>
+			<string>[http://wiki.secondlife.com/wiki/LlParseStringKeepNulls LlParseStringKeepNulls]</string>
+		<key>llparticlesystem</key>
+			<string>[http://wiki.secondlife.com/wiki/LlParticleSystem LlParticleSystem]</string>
+		<key>llpasscollisions</key>
+			<string>[http://wiki.secondlife.com/wiki/LlPassCollisions LlPassCollisions]</string>
+		<key>llpasstouches</key>
+			<string>[http://wiki.secondlife.com/wiki/LlPassTouches LlPassTouches]</string>
+		<key>llpatrolpoints</key>
+			<string>[http://wiki.secondlife.com/wiki/LlPatrolPoints LlPatrolPoints]</string>
+		<key>llplaysound</key>
+			<string>[http://wiki.secondlife.com/wiki/LlPlaySound LlPlaySound]</string>
+		<key>llplaysoundslave</key>
+			<string>[http://wiki.secondlife.com/wiki/LlPlaySoundSlave LlPlaySoundSlave]</string>
+		<key>llpointat</key>
+			<string>[http://wiki.secondlife.com/wiki/LlPointAt LlPointAt]</string>
+		<key>llpow</key>
+			<string>[http://wiki.secondlife.com/wiki/LlPow LlPow]</string>
+		<key>llpreloadsound</key>
+			<string>[http://wiki.secondlife.com/wiki/LlPreloadSound LlPreloadSound]</string>
+		<key>llpursue</key>
+			<string>[http://wiki.secondlife.com/wiki/LlPursue LlPursue]</string>
+		<key>llpushobject</key>
+			<string>[http://wiki.secondlife.com/wiki/LlPushObject LlPushObject]</string>
+		<key>llreadkeyvalue</key>
+			<string>[http://wiki.secondlife.com/wiki/LlReadKeyValue LlReadKeyValue]</string>
+		<key>llrefreshprimurl</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRefreshPrimURL LlRefreshPrimURL]</string>
+		<key>llregionsay</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRegionSay LlRegionSay]</string>
+		<key>llregionsayto</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRegionSayTo LlRegionSayTo]</string>
+		<key>llreleasecamera</key>
+			<string>[http://wiki.secondlife.com/wiki/LlReleaseCamera LlReleaseCamera]</string>
+		<key>llreleasecontrols</key>
+			<string>[http://wiki.secondlife.com/wiki/LlReleaseControls LlReleaseControls]</string>
+		<key>llreleaseurl</key>
+			<string>[http://wiki.secondlife.com/wiki/LlReleaseURL LlReleaseURL]</string>
+		<key>llremotedatareply</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRemoteDataReply LlRemoteDataReply]</string>
+		<key>llremotedatasetregion</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRemoteDataSetRegion LlRemoteDataSetRegion]</string>
+		<key>llremoteloadscript</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRemoteLoadScript LlRemoteLoadScript]</string>
+		<key>llremoteloadscriptpin</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRemoteLoadScriptPin LlRemoteLoadScriptPin]</string>
+		<key>llremovefromlandbanlist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRemoveFromLandBanList LlRemoveFromLandBanList]</string>
+		<key>llremovefromlandpasslist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRemoveFromLandPassList LlRemoveFromLandPassList]</string>
+		<key>llremoveinventory</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRemoveInventory LlRemoveInventory]</string>
+		<key>llremovevehicleflags</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRemoveVehicleFlags LlRemoveVehicleFlags]</string>
+		<key>llreplaceagentenvironment</key>
+			<string>[http://wiki.secondlife.com/wiki/LlReplaceAgentEnvironment LlReplaceAgentEnvironment]</string>
+		<key>llrequestagentdata</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRequestAgentData LlRequestAgentData]</string>
+		<key>llrequestdisplayname</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRequestDisplayName LlRequestDisplayName]</string>
+		<key>llrequestexperiencepermissions</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRequestExperiencePermissions LlRequestExperiencePermissions]</string>
+		<key>llrequestinventorydata</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRequestInventoryData LlRequestInventoryData]</string>
+		<key>llrequestpermissions</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRequestPermissions LlRequestPermissions]</string>
+		<key>llrequestsecureurl</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRequestSecureURL LlRequestSecureURL]</string>
+		<key>llrequestsimulatordata</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRequestSimulatorData LlRequestSimulatorData]</string>
+		<key>llrequesturl</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRequestURL LlRequestURL]</string>
+		<key>llrequestuserkey</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRequestUserKey LlRequestUserKey]</string>
+		<key>llrequestusername</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRequestUsername LlRequestUsername]</string>
+		<key>llresetanimationoverride</key>
+			<string>[http://wiki.secondlife.com/wiki/LlResetAnimationOverride LlResetAnimationOverride]</string>
+		<key>llresetlandbanlist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlResetLandBanList LlResetLandBanList]</string>
+		<key>llresetlandpasslist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlResetLandPassList LlResetLandPassList]</string>
+		<key>llresetotherscript</key>
+			<string>[http://wiki.secondlife.com/wiki/LlResetOtherScript LlResetOtherScript]</string>
+		<key>llresetscript</key>
+			<string>[http://wiki.secondlife.com/wiki/LlResetScript LlResetScript]</string>
+		<key>llresettime</key>
+			<string>[http://wiki.secondlife.com/wiki/LlResetTime LlResetTime]</string>
+		<key>llreturnobjectsbyid</key>
+			<string>[http://wiki.secondlife.com/wiki/LlReturnObjectsByID LlReturnObjectsByID]</string>
+		<key>llreturnobjectsbyowner</key>
+			<string>[http://wiki.secondlife.com/wiki/LlReturnObjectsByOwner LlReturnObjectsByOwner]</string>
+		<key>llrezatroot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRezAtRoot LlRezAtRoot]</string>
+		<key>llrezobject</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRezObject LlRezObject]</string>
+		<key>llrot2angle</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRot2Angle LlRot2Angle]</string>
+		<key>llrot2axis</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRot2Axis LlRot2Axis]</string>
+		<key>llrot2euler</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRot2Euler LlRot2Euler]</string>
+		<key>llrot2fwd</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRot2Fwd LlRot2Fwd]</string>
+		<key>llrot2left</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRot2Left LlRot2Left]</string>
+		<key>llrot2up</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRot2Up LlRot2Up]</string>
+		<key>llrotatetexture</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRotateTexture LlRotateTexture]</string>
+		<key>llrotbetween</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRotBetween LlRotBetween]</string>
+		<key>llrotlookat</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRotLookAt LlRotLookAt]</string>
+		<key>llrottarget</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRotTarget LlRotTarget]</string>
+		<key>llrottargetremove</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRotTargetRemove LlRotTargetRemove]</string>
+		<key>llround</key>
+			<string>[http://wiki.secondlife.com/wiki/LlRound LlRound]</string>
+		<key>llsamegroup</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSameGroup LlSameGroup]</string>
+		<key>llsay</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSay LlSay]</string>
+		<key>llscalebyfactor</key>
+			<string>[http://wiki.secondlife.com/wiki/LlScaleByFactor LlScaleByFactor]</string>
+		<key>llscaletexture</key>
+			<string>[http://wiki.secondlife.com/wiki/LlScaleTexture LlScaleTexture]</string>
+		<key>llscriptdanger</key>
+			<string>[http://wiki.secondlife.com/wiki/LlScriptDanger LlScriptDanger]</string>
+		<key>llscriptprofiler</key>
+			<string>[http://wiki.secondlife.com/wiki/LlScriptProfiler LlScriptProfiler]</string>
+		<key>llsendremotedata</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSendRemoteData LlSendRemoteData]</string>
+		<key>llsensor</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSensor LlSensor]</string>
+		<key>llsensorremove</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSensorRemove LlSensorRemove]</string>
+		<key>llsensorrepeat</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSensorRepeat LlSensorRepeat]</string>
+		<key>llsetagentenvironment</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetAgentEnvironment LlSetAgentEnvironment]</string>
+		<key>llsetalpha</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetAlpha LlSetAlpha]</string>
+		<key>llsetangularvelocity</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetAngularVelocity LlSetAngularVelocity]</string>
+		<key>llsetanimationoverride</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetAnimationOverride LlSetAnimationOverride]</string>
+		<key>llsetbuoyancy</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetBuoyancy LlSetBuoyancy]</string>
+		<key>llsetcameraatoffset</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetCameraAtOffset LlSetCameraAtOffset]</string>
+		<key>llsetcameraeyeoffset</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetCameraEyeOffset LlSetCameraEyeOffset]</string>
+		<key>llsetcameraparams</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetCameraParams LlSetCameraParams]</string>
+		<key>llsetclickaction</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetClickAction LlSetClickAction]</string>
+		<key>llsetcolor</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetColor LlSetColor]</string>
+		<key>llsetcontenttype</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetContentType LlSetContentType]</string>
+		<key>llsetdamage</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetDamage LlSetDamage]</string>
+		<key>llsetforce</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetForce LlSetForce]</string>
+		<key>llsetforceandtorque</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetForceAndTorque LlSetForceAndTorque]</string>
+		<key>llsethoverheight</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetHoverHeight LlSetHoverHeight]</string>
+		<key>llsetinventorypermmask</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetInventoryPermMask LlSetInventoryPermMask]</string>
+		<key>llsetkeyframedmotion</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetKeyframedMotion LlSetKeyframedMotion]</string>
+		<key>llsetlinkalpha</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetLinkAlpha LlSetLinkAlpha]</string>
+		<key>llsetlinkcamera</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetLinkCamera LlSetLinkCamera]</string>
+		<key>llsetlinkcolor</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetLinkColor LlSetLinkColor]</string>
+		<key>llsetlinkmedia</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetLinkMedia LlSetLinkMedia]</string>
+		<key>llsetlinkprimitiveparams</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetLinkPrimitiveParams LlSetLinkPrimitiveParams]</string>
+		<key>llsetlinkprimitiveparamsfast</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetLinkPrimitiveParamsFast LlSetLinkPrimitiveParamsFast]</string>
+		<key>llsetlinktexture</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetLinkTexture LlSetLinkTexture]</string>
+		<key>llsetlinktextureanim</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetLinkTextureAnim LlSetLinkTextureAnim]</string>
+		<key>llsetlocalrot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetLocalRot LlSetLocalRot]</string>
+		<key>llsetmemorylimit</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetMemoryLimit LlSetMemoryLimit]</string>
+		<key>llsetobjectdesc</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetObjectDesc LlSetObjectDesc]</string>
+		<key>llsetobjectname</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetObjectName LlSetObjectName]</string>
+		<key>llsetobjectpermmask</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetObjectPermMask LlSetObjectPermMask]</string>
+		<key>llsetparcelmusicurl</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetParcelMusicURL LlSetParcelMusicURL]</string>
+		<key>llsetpayprice</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetPayPrice LlSetPayPrice]</string>
+		<key>llsetphysicsmaterial</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetPhysicsMaterial LlSetPhysicsMaterial]</string>
+		<key>llsetpos</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetPos LlSetPos]</string>
+		<key>llsetprimitiveparams</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetPrimitiveParams LlSetPrimitiveParams]</string>
+		<key>llsetprimmediaparams</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetPrimMediaParams LlSetPrimMediaParams]</string>
+		<key>llsetprimurl</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetPrimURL LlSetPrimURL]</string>
+		<key>llsetregionpos</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetRegionPos LlSetRegionPos]</string>
+		<key>llsetremotescriptaccesspin</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetRemoteScriptAccessPin LlSetRemoteScriptAccessPin]</string>
+		<key>llsetrot</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetRot LlSetRot]</string>
+		<key>llsetscale</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetScale LlSetScale]</string>
+		<key>llsetscriptstate</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetScriptState LlSetScriptState]</string>
+		<key>llsetsittext</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetSitText LlSetSitText]</string>
+		<key>llsetsoundqueueing</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetSoundQueueing LlSetSoundQueueing]</string>
+		<key>llsetsoundradius</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetSoundRadius LlSetSoundRadius]</string>
+		<key>llsetstatus</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetStatus LlSetStatus]</string>
+		<key>llsettext</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetText LlSetText]</string>
+		<key>llsettexture</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetTexture LlSetTexture]</string>
+		<key>llsettextureanim</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetTextureAnim LlSetTextureAnim]</string>
+		<key>llsettimerevent</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetTimerEvent LlSetTimerEvent]</string>
+		<key>llsettorque</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetTorque LlSetTorque]</string>
+		<key>llsettouchtext</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetTouchText LlSetTouchText]</string>
+		<key>llsetvehicleflags</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetVehicleFlags LlSetVehicleFlags]</string>
+		<key>llsetvehiclefloatparam</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetVehicleFloatParam LlSetVehicleFloatParam]</string>
+		<key>llsetvehiclerotationparam</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetVehicleRotationParam LlSetVehicleRotationParam]</string>
+		<key>llsetvehicletype</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetVehicleType LlSetVehicleType]</string>
+		<key>llsetvehiclevectorparam</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetVehicleVectorParam LlSetVehicleVectorParam]</string>
+		<key>llsetvelocity</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSetVelocity LlSetVelocity]</string>
+		<key>llsha1string</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSHA1String LlSHA1String]</string>
+		<key>llshout</key>
+			<string>[http://wiki.secondlife.com/wiki/LlShout LlShout]</string>
+		<key>llsin</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSin LlSin]</string>
+		<key>llsitonlink</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSitOnLink LlSitOnLink]</string>
+		<key>llsittarget</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSitTarget LlSitTarget]</string>
+		<key>llsleep</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSleep LlSleep]</string>
+		<key>llsound</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSound LlSound]</string>
+		<key>llsoundpreload</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSoundPreload LlSoundPreload]</string>
+		<key>llsqrt</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSqrt LlSqrt]</string>
+		<key>llsrgb2linear</key>
+			<string>[http://wiki.secondlife.com/wiki/LlsRGB2Linear LlsRGB2Linear]</string>
+		<key>llstartanimation</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStartAnimation LlStartAnimation]</string>
+		<key>llstartobjectanimation</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStartObjectAnimation LlStartObjectAnimation]</string>
+		<key>llstopanimation</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStopAnimation LlStopAnimation]</string>
+		<key>llstopobjectanimation</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStopObjectAnimation LlStopObjectAnimation]</string>
+		<key>llstophover</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStopHover LlStopHover]</string>
+		<key>llstoplookat</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStopLookAt LlStopLookAt]</string>
+		<key>llstopmovetotarget</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStopMoveToTarget LlStopMoveToTarget]</string>
+		<key>llstoppointat</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStopPointAt LlStopPointAt]</string>
+		<key>llstopsound</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStopSound LlStopSound]</string>
+		<key>llstringlength</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStringLength LlStringLength]</string>
+		<key>llstringtobase64</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStringToBase64 LlStringToBase64]</string>
+		<key>llstringtrim</key>
+			<string>[http://wiki.secondlife.com/wiki/LlStringTrim LlStringTrim]</string>
+		<key>llsubstringindex</key>
+			<string>[http://wiki.secondlife.com/wiki/LlSubStringIndex LlSubStringIndex]</string>
+		<key>lltakecamera</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTakeCamera LlTakeCamera]</string>
+		<key>lltakecontrols</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTakeControls LlTakeControls]</string>
+		<key>lltan</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTan LlTan]</string>
+		<key>lltarget</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTarget LlTarget]</string>
+		<key>lltargetedemail</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTargetedEmail LlTargetedEmail]</string>
+		<key>lltargetomega</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTargetOmega LlTargetOmega]</string>
+		<key>lltargetremove</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTargetRemove LlTargetRemove]</string>
+		<key>llteleportagent</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTeleportAgent LlTeleportAgent]</string>
+		<key>llteleportagentglobalcoords</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTeleportAgentGlobalCoords LlTeleportAgentGlobalCoords]</string>
+		<key>llteleportagenthome</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTeleportAgentHome LlTeleportAgentHome]</string>
+		<key>lltextbox</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTextBox LlTextBox]</string>
+		<key>lltolower</key>
+			<string>[http://wiki.secondlife.com/wiki/LlToLower LlToLower]</string>
+		<key>lltoupper</key>
+			<string>[http://wiki.secondlife.com/wiki/LlToUpper LlToUpper]</string>
+		<key>lltransferlindendollars</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTransferLindenDollars LlTransferLindenDollars]</string>
+		<key>lltriggersound</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTriggerSound LlTriggerSound]</string>
+		<key>lltriggersoundlimited</key>
+			<string>[http://wiki.secondlife.com/wiki/LlTriggerSoundLimited LlTriggerSoundLimited]</string>
+		<key>llunescapeurl</key>
+			<string>[http://wiki.secondlife.com/wiki/LlUnescapeURL LlUnescapeURL]</string>
+		<key>llunsit</key>
+			<string>[http://wiki.secondlife.com/wiki/LlUnSit LlUnSit]</string>
+		<key>llupdatecharacter</key>
+			<string>[http://wiki.secondlife.com/wiki/LlUpdateCharacter LlUpdateCharacter]</string>
+		<key>llupdatekeyvalue</key>
+			<string>[http://wiki.secondlife.com/wiki/LlUpdateKeyValue LlUpdateKeyValue]</string>
+		<key>llvecdist</key>
+			<string>[http://wiki.secondlife.com/wiki/LlVecDist LlVecDist]</string>
+		<key>llvecmag</key>
+			<string>[http://wiki.secondlife.com/wiki/LlVecMag LlVecMag]</string>
+		<key>llvecnorm</key>
+			<string>[http://wiki.secondlife.com/wiki/LlVecNorm LlVecNorm]</string>
+		<key>llvolumedetect</key>
+			<string>[http://wiki.secondlife.com/wiki/LlVolumeDetect LlVolumeDetect]</string>
+		<key>llwanderwithin</key>
+			<string>[http://wiki.secondlife.com/wiki/LlWanderWithin LlWanderWithin]</string>
+		<key>llwater</key>
+			<string>[http://wiki.secondlife.com/wiki/LlWater LlWater]</string>
+		<key>llwhisper</key>
+			<string>[http://wiki.secondlife.com/wiki/LlWhisper LlWhisper]</string>
+		<key>llwind</key>
+			<string>[http://wiki.secondlife.com/wiki/LlWind LlWind]</string>
+		<key>llxorbase64</key>
+			<string>[http://wiki.secondlife.com/wiki/LlXorBase64 LlXorBase64]</string>
+		<key>llxorbase64strings</key>
+			<string>[http://wiki.secondlife.com/wiki/LlXorBase64Strings LlXorBase64Strings]</string>
+		<key>llxorbase64stringscorrect</key>
+			<string>[http://wiki.secondlife.com/wiki/LlXorBase64StringsCorrect LlXorBase64StringsCorrect]</string>
+        </map>
+    </map>
+</llsd>
